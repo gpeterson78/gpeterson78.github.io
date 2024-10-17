@@ -10,7 +10,7 @@
 
 ## **IT Systems Engineering Manager**
 
-_Business Technology Strategy | Digital Transformations | Cloud Architecture | Process Improvement | Team Leadership_
+| _Business Technology Strategy | Digital Transformations | Cloud Architecture | Process Improvement | Team Leadership_ |
 
 ---
 
