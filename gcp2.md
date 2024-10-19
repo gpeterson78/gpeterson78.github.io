@@ -1,42 +1,42 @@
 # **Grady Peterson**
 
-—
+---
 
 **📞** (952) 334-5523  
 **✉** grady@gradyp.com  
 **📍** Maple Grove, MN  
 
-—
+---
 
 ## **IT Systems Engineering Manager**  
 *Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization | Leadership*
 
-—
+---
 
 ### **Professional Summary**
 
 Experienced IT leader with over two decades of expertise in **infrastructure architecture**, **digital transformation**, and **cloud strategy**. Demonstrated success in driving multi-million-dollar projects, achieving over **$2M in cost savings**, and implementing scalable, cloud-based solutions. Adept at leading high-performance teams and delivering strategic, impactful technological innovations that align with business objectives.
 
-—
+---
 
 ### **Key Achievements**
 
-- **Led Hyperconverged Infrastructure Initiative**  
-  Re-architected infrastructure at Infinite Campus, consolidating **storage, compute, and licensing** into a streamlined hyperconverged platform, resulting in **$2M in annual savings** and positioning the company as **Nutanix’s largest Midwestern customer**.
+1. **Led Hyperconverged Infrastructure Initiative**  
+   Re-architected infrastructure at Infinite Campus, consolidating **storage, compute, and licensing** into a streamlined hyperconverged platform, resulting in **$2M in annual savings** and positioning the company as **Nutanix’s largest Midwestern customer**.
 
-- **Cloud Migration Leadership**  
-  Directed the migration to **AWS EKS and Fargate** at Western National, introducing modern containerization practices while optimizing disaster recovery and **security strategies**.
+2. **Cloud Migration Leadership**  
+   Directed the migration to **AWS EKS and Fargate** at Western National. Successfully defined **roles and responsibilities** between the network and platform teams, with the network team managing **AWS networking** and the platform team managing **EKS**. Architected a unified system for both **on-prem and cloud environments**, ensuring seamless operations across platforms.
 
-- **Critical Data Recovery & System Modernization**  
-  Orchestrated the recovery of **30 million backup files** following a critical infrastructure failure, uncovering a major software bug. Spearheaded the successful transition from Hadoop to a more efficient **S3 platform**, improving system performance and developer efficiency.
+3. **Critical Backup System Recovery & Platform Modernization**  
+   Led the recovery of an **antiquated backup system** that had become a **single point of failure**. Restored the system, recovering **30 million backup files**, despite no vendor support. Transitioned the company to a more efficient **S3-based platform**, modernizing storage practices and enabling future **cloud adoption**.
 
-- **Built Enterprise Automation Platform**  
-  Replaced an aging VRA stack with a robust **Ansible automation platform**, streamlining deployment processes and significantly reducing manual overhead.
+4. **Team Retention & Growth During COVID**  
+   Served as **acting manager** during a critical transition at Infinite Campus, taking over team leadership following the departure of the previous manager. Established communication with other teams, uncovered infrastructure deficiencies, and implemented a **kanban-style workflow**. Joined the architecture committee as the **infrastructure advisor** and maintained **100% retention**, growing the team by **30%**.
 
-- **Maintained 100% Retention During Pandemic**  
-  Led a high-performance team at Infinite Campus, achieving **100% retention** and growing the team by **30%** during the COVID-19 pandemic, the only department to avoid staff turnover.
+5. **Cost Optimization Through Load Balancing Infrastructure Replacement**  
+   Presented a **cost-benefit analysis** for replacing the company’s **F5 load balancing infrastructure**, demonstrating that the company's needs could be met with an **open-source HAProxy-based solution**. The proposal was accepted, resulting in significant **cost savings** while maintaining the required functionality and performance.
 
-—
+---
 
 ### **Career Experience**
 
@@ -50,7 +50,7 @@ Designed and implemented a comprehensive **Hybrid Layered Architecture** to stre
 
 #### **IT System Engineer Lead**  
 **Infinite Campus | Blaine, MN | 2020 - 2023**  
-Led the modernization of the company’s infrastructure through the adoption of **hyperconverged platforms** and **Kubernetes**, significantly improving scalability and reducing overall operating costs.
+Led the modernization of the company's infrastructure through the adoption of **hyperconverged platforms** and **Kubernetes**, significantly improving scalability and reducing overall operating costs.
 
 - Designed and deployed the company’s first **Kubernetes cluster**, facilitating better orchestration and scalability of enterprise applications.
 - Led the recovery of a **Hadoop cluster** after a critical failure, recovering **30 million customer files** and spearheading the migration to a more efficient **S3 platform**.
@@ -67,15 +67,15 @@ Led major infrastructure initiatives, including a **data center migration**, the
 
 #### **Senior Engineer**  
 **ShopNBC (Evine Live) | Eden Prairie, MN | 2012 - 2016**  
-Served as a senior engineer on critical infrastructure projects, including PCI compliance, remote data center builds, and virtualization. Played a key role in modernizing the company’s security infrastructure, as well as designing and deploying solutions for remote and distributed operations.
+Served as a senior engineer on critical infrastructure projects, including PCI compliance, remote data center builds, and virtualization. Played a key role in modernizing the company's security infrastructure, as well as designing and deploying solutions for remote and distributed operations.
 
 - **Led a successful PCI compliance project**, implementing a **Red Forest** (now known as **Microsoft Enhanced Security Administrative Environment**), securing **Active Directory** and virtualization systems. The company passed its security audit for the first time in 14 years, with auditors unable to compromise administrative credentials.
-- The project not only **transformed the security posture** of the company but also simplified **security and domain administration**, making the system more secure and easier to maintain through effective training and integration. It remains one of the most impactful projects of the user’s career.
-- **Designed, installed, and administered** a **Cisco blade system** with a **Nutanix backend** to support a replicated data center at the company’s new distribution center. Led vendor negotiations, system design, and deployment, establishing a critical new infrastructure.
-- **Built and administered** a **VMware Horizon VDI platform**, enabling remote, home-based users to securely access PCI-compliant workstations hosted in the company’s data center.
+- The project not only **transformed the security posture** of the company but also simplified **security and domain administration**, making the system more secure and easier to maintain through effective training and integration. It remains one of the most impactful projects of the user's career.
+- **Designed, installed, and administered** a **Cisco blade system** with a **Nutanix backend** to support a replicated data center at the company's new distribution center. Led vendor negotiations, system design, and deployment, establishing a critical new infrastructure.
+- **Built and administered** a **VMware Horizon VDI platform**, enabling remote, home-based users to securely access PCI-compliant workstations hosted in the company's data center.
 - Collaborated closely with external consultants and internal teams to ensure smooth project execution, seamless system integration, and lasting security improvements.
 
-—
+---
 
 ### **Technical Competencies**
 
@@ -87,4 +87,9 @@ Served as a senior engineer on critical infrastructure projects, including PCI c
 - **Virtualization**: VMware ESXi, Horizon  
 - **Linux/Unix**: Ubuntu, CentOS, RedHat
 
-—
+---
+
+### **References**  
+Available upon request.
+
+---
