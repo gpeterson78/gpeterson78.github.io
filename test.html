@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        /* General body styling */
+        body {
+            background-color: black; /* Classic terminal black background */
+            color: #00ff00; /* Terminal green text */
+            font-family: "Courier New", Courier, monospace; /* Monospace font for terminal look */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        
+        /* Heading styling - bold, brighter green */
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #00ff7f; /* Brighter green for headings */
+        }
+        
+        /* Subtext styling - more subdued green */
+        p {
+            font-size: 1.2em;
+            color: #00aa00; /* Subdued green for regular text */
+        }
+        
+        /* Style for the links */
+        a {
+            color: #00ff7f; /* Brighter green for links */
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline; /* Underline effect when hovering over links */
+        }
+        
+        /* Horizontal rule style to match the theme */
+        hr {
+            border: 1px solid #00ff00; /* Green horizontal line */
+        }
+
+        /* Debian-style terminal prompt */
+        .terminal-prompt {
+            color: #00ff00; /* Prompt green */
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container for all content -->
+    <div>
+        <!-- Main heading -->
+        <h1>Welcome</h1>
+        
+        <!-- Professional profile link -->
+        <p>Grady Peterson's <a href="https://www.gradyp.com/gcp">professional profile</a>.</p>
+        
+        <!-- Divider line -->
+        <hr style="width:30%">
+        
+        <!-- Placeholder text -->
+        <p>More to come...</p>
+        
+        <!-- Link to snand.org -->
+        <p>Meanwhile, go <a href="https://www.snand.org">here</a>.</p>
+        
+        <!-- Debian-style fake terminal prompt -->
+        <div class="terminal-prompt">
+            <span>grady@debian:~$</span> _ <!-- Fake terminal prompt -->
+        </div>
+    </div>
+
+</body>
+</html>
