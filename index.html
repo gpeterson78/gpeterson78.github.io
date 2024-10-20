@@ -12,6 +12,20 @@
             font-family: "Courier New", Courier, monospace; /* Monospace font for terminal look */
             padding: 20px;
             margin: 0;
+            display: flex;
+            justify-content: center; /* Centers the content horizontally */
+            align-items: center; /* Centers the content vertically */
+            height: 100vh; /* Makes sure the content takes up full viewport height */
+        }
+
+        /* Terminal window styling - 80 character width simulation */
+        .terminal {
+            width: 80ch; /* Set the width to 80 characters */
+        }
+
+        /* Centered text styling for the MOTD */
+        .center {
+            text-align: center;
         }
 
         /* Prompt text styling */
@@ -22,12 +36,12 @@
         /* Terminal output (e.g., "Welcome", links, etc.) */
         .output {
             color: #00aa00; /* Subdued green for terminal output text */
-            display: inline; /* Ensures it appears after the prompt */
+            display: block; /* Ensure each line is treated as block for proper line breaks */
         }
 
         /* Links styling */
         a {
-            color: #0000EE; /* Standart url blue for links */
+            color: #0000EE; /* Brighter green for links */
             text-decoration: none;
         }
         
@@ -65,39 +79,39 @@
 <body>
 
     <!-- SSH login simulation -->
-    <div>
+    <div class="terminal">
         <p class="prompt">SSH to gradyp.com</p>
-        <p class="prompt">login: grady</p>
+        <p class="prompt">login: anonymous</p>
         <p class="prompt">Password: ********</p>
-        <p class="prompt">Last login: Tue Oct 17 20:45:12 2024 from <span id="user-ip">[Fetching IP...]</span></p>
+        <p class="prompt">Last login: Sun Oct 20 16:31:12 2024 from <span id="user-ip">[Fetching IP...]</span></p>
 
         <!-- Start of SSH MOTD message -->
-        <p class="prompt">Welcome to GradyP.com!</p>
-        <span class="output">
+        <div class="center">
+            <span class="output">
 ================================================================================<br>
-                               This system is for *everyone's* use because,                               <br>
-                      really, it's just a profile site for Grady Peterson.                       <br>
-              Usage of this system is *not* monitored. At least not by me. I can't               <br>
-             promise GitHub.io, your ISP, or some guy in a basement isn't fiddling               <br>
-                                     with the tubes though.                                      <br>
-        Unauthorized access is *totally* authorized. The only person who deserves               <br>
-               jail time here is me, for subjecting you to this hack job of a site.              <br>
-           There is no privacy policy. If you're looking for one, you'll be sorely              <br>
-          disappointed. But, hey, maybe I’ll whip up a joke page for that someday.              <br>
-            By accessing this system, you're probably just reading a resume or a                <br>
-                              bit of personal rambling. Enjoy!                                  <br>
+  This site is for *any* usage because it's just Grady Peterson's profile page<br>
+<br>
+  Usage of this system is *not* monitored. At least not by me. I can't promise<br>
+          GitHub.io nor your ISP isn't fiddling with the tubes though.<br>
+<br>
+ Unauthorized access is *totally* authorized. There is no terms and conditions,<br>
+  no privacy policy, nor anything that will carry any civil penalties, because<br>
+        the only person who deserves jail time here is me, for subjecting<br> 
+                         you to this hack job of a site.<br>
+<br>  
+    By accessing this system, you're probably just reading a resume or a bit<br>
+                      of personal rambling. Enjoy!<br>
 ================================================================================<br>
-        </span>
-        <span class="output">               For complaints or praise, contact admin@gradyp.com.              <br>
-                           But mostly praise, please.                                </span>
-    </div>
+            </span> 
+        </div>
 
-    <!-- Terminal-style content starts here -->
-    <div>
-        <!-- Simulated terminal prompt followed by output -->
-        <p class="prompt">gradyp.com:~$ <span class="output">cd /gcp #<a href="https://www.gradyp.com/gcp">professional profile</a>.</span></p>
+        <!-- Email line moved out of the centered MOTD -->
+        <span class="output">For complaints or praise, contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
+        
+        <!-- Terminal-style content starts here -->
+        <p class="prompt">gradyp.com:~$ <span class="output">cd /gcp #<a href="https://www.gradyp.com/gcp">professional profile</a></span></p>
         <p class="prompt">gradyp.com:~$ <span class="output">More to come...</span></p>
-        <p class="prompt">gradyp.com:~$ <span class="output">cd /www.snand.org/ #<a href="https://www.snand.org">go here instead</a>.</span></p>
+        <p class="prompt">gradyp.com:~$ <span class="output">cd /www.snand.org/ #<a href="https://www.snand.org">Go here instead</a></span></p>
         <p class="prompt">gradyp.com:~$ <span class="cursor"></span></p> <!-- Fake blinking cursor -->
     </div>
 
