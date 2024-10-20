@@ -5,32 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <style>
+        /* General body styling */
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
+            background-color: black; /* Classic terminal black background */
+            color: #00ff00; /* Terminal green text */
+            font-family: "Courier New", Courier, monospace; /* Monospace font for terminal look */
+            padding: 20px;
             margin: 0;
         }
-        p {
-            font-size: 1.5em;
-            color: gray;
+
+        /* Prompt text styling */
+        .prompt {
+            color: #00ff00; /* Terminal green for prompt */
+        }
+
+        /* Terminal output (e.g., "Welcome", links, etc.) */
+        .output {
+            color: #00aa00; /* Subdued green for terminal output text */
+            display: inline; /* Ensures it appears after the prompt */
+        }
+
+        /* Links styling */
+        a {
+            color: #00ff7f; /* Brighter green for links */
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline; /* Underline effect when hovering over links */
+        }
+
+        /* Horizontal rule style for dividing sections */
+        hr {
+            border: 1px solid #00ff00;
+            width: 30%;
+            margin: 20px 0;
+        }
+
+        /* Terminal-like blinking cursor */
+        .cursor {
+            border-right: 2px solid #00ff00;
+            animation: blink 1s steps(2, start) infinite;
+        }
+
+        /* Blinking cursor animation */
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
         }
     </style>
+
+    <!-- JavaScript to fetch and insert user's IP address -->
+    <script>
+        // Fetch the user's IP address using a public API
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                // Insert the IP address into the "Last login" message
+                document.getElementById('user-ip').textContent = data.ip;
+            })
+            .catch(error => console.log('Error fetching IP:', error));
+    </script>
+
 </head>
 <body>
+
+    <!-- SSH login simulation -->
     <div>
-        <h1>Welcome</h1>
-        <p>Grady Peterson's <a href="https://www.gradyp.com/gcp">professional profile</a>.</p>
-        <hr style="width:30%">
-        <p>More to come...</p>
-        <p>meanwhile, go <a href="https://www.snand.org">here</a>.</a></p>
+        <p class="prompt">SSH to gradyp.com</p>
+        <p class="prompt">login: anonymous</p>
+        <p class="prompt">Password: ********</p>
+        <p class="prompt">Last login: Tue Oct 17 20:45:12 2024 from <span id="user-ip">[Fetching IP...]</span></p>
+        <p class="prompt">Welcome to GradyP.com</p>
+        <p class="output">This is a personal site for Grady Peterson's professional profile.</p>
+#        <p class="output">version 0.1</p>
     </div>
+
+    <!-- Terminal-style content starts here -->
+    <div>
+        <!-- Simulated terminal prompt followed by output -->
+        <p class="prompt">gradyp.com:~$ <span class="output">cd /gcp #<a href="https://www.gradyp.com/gcp">professional profile</a></span></p>
+        <p class="prompt">gradyp.com:~$ <span class="output">More to come...</span></p>
+        <p class="prompt">gradyp.com:~$ <span class="output">cd /www.snand.org/ #<a href="https://www.snand.org">snand.org</a></span></p>
+        <p class="prompt">gradyp.com:~$ <span class="cursor"></span></p> <!-- Fake blinking cursor -->
+    </div>
+
 </body>
 </html>
