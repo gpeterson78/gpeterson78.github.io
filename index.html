@@ -35,13 +35,6 @@
             text-decoration: underline; /* Underline effect when hovering over links */
         }
 
-        /* Horizontal rule style for dividing sections */
-        hr {
-            border: 1px solid #00ff00;
-            width: 30%;
-            margin: 20px 0;
-        }
-
         /* Terminal-like blinking cursor */
         .cursor {
             border-right: 2px solid #00ff00;
@@ -74,11 +67,29 @@
     <!-- SSH login simulation -->
     <div>
         <p class="prompt">SSH to gradyp.com</p>
-        <p class="prompt">login: anonymous</p>
+        <p class="prompt">login: grady</p>
         <p class="prompt">Password: ********</p>
         <p class="prompt">Last login: Tue Oct 17 20:45:12 2024 from <span id="user-ip">[Fetching IP...]</span></p>
-        <p class="prompt">Welcome to GradyP.com</p>
-        <p class="output">This is a personal site for Grady Peterson's professional profile.</p>
+
+        <!-- Start of SSH MOTD message -->
+        <p class="prompt">Welcome to GradyP.com!</p>
+        <span class="output">
+================================================================================<br>
+                               This system is for *everyone's* use because,                               <br>
+                      really, it's just a profile site for Grady Peterson.                       <br>
+              Usage of this system is *not* monitored. At least not by me. I can't               <br>
+             promise GitHub.io, your ISP, or some guy in a basement isn't fiddling               <br>
+                                     with the tubes though.                                      <br>
+        Unauthorized access is *totally* authorized. The only person who deserves               <br>
+               jail time here is me, for subjecting you to this hack job of a site.              <br>
+           There is no privacy policy. If you're looking for one, you'll be sorely              <br>
+          disappointed. But, hey, maybe I’ll whip up a joke page for that someday.              <br>
+            By accessing this system, you're probably just reading a resume or a                <br>
+                              bit of personal rambling. Enjoy!                                  <br>
+================================================================================<br>
+        </span>
+        <span class="output">               For complaints or praise, contact admin@gradyp.com.              <br>
+                           But mostly praise, please.                                </span>
     </div>
 
     <!-- Terminal-style content starts here -->
