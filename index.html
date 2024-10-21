@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>Welcome</title>
     <style>
         /* General body styling */
@@ -41,7 +41,7 @@
 
         /* Links styling */
         a {
-            color: #0000EE; /* Brighter green for links */
+            color: #00ff7f; /* Brighter green for links */
             text-decoration: none;
         }
         
@@ -59,6 +59,19 @@
         @keyframes blink {
             50% {
                 border-color: transparent;
+            }
+        }
+
+        /* Mobile adjustments - smaller font size for smaller screens */
+        @media (max-width: 600px) {
+            .terminal {
+                width: 100%; /* Allow the terminal to scale down to fit the screen */
+            }
+            body {
+                padding: 10px; /* Less padding on smaller screens */
+            }
+            .output, .prompt {
+                font-size: 0.75em; /* Scale down font size */
             }
         }
     </style>
@@ -83,22 +96,19 @@
         <p class="prompt">SSH to gradyp.com</p>
         <p class="prompt">login: anonymous</p>
         <p class="prompt">Password: ********</p>
-        <p class="prompt">Last login: Sun Oct 20 16:31:12 2024 from <span id="user-ip">[Fetching IP...]</span></p>
+        <p class="prompt">Last login: Sun Oct 20 19:52:12 2024 from <span id="user-ip">[Fetching IP...]</span></p>
 
         <!-- Start of SSH MOTD message -->
         <div class="center">
             <span class="output">
 ================================================================================<br>
-  This site is for *any* usage because it's just Grady Peterson's profile page<br>
-<br>
+ This site is for *any* usage because, it's just Grady Peterson's profile page<br>
   Usage of this system is *not* monitored. At least not by me. I can't promise<br>
-          GitHub.io nor your ISP isn't fiddling with the tubes though.<br>
-<br>
+         GitHub.io nor your ISP, isn't fiddling with the tubes though.<br>
  Unauthorized access is *totally* authorized. There is no terms and conditions,<br>
   no privacy policy, nor anything that will carry any civil penalties, because<br>
         the only person who deserves jail time here is me, for subjecting<br> 
-                         you to this hack job of a site.<br>
-<br>  
+                         you to this hack of a site.<br>
     By accessing this system, you're probably just reading a resume or a bit<br>
                       of personal rambling. Enjoy!<br>
 ================================================================================<br>
@@ -111,7 +121,7 @@
         <!-- Terminal-style content starts here -->
         <p class="prompt">gradyp.com:~$ <span class="output">cd /gcp #<a href="https://www.gradyp.com/gcp">professional profile</a></span></p>
         <p class="prompt">gradyp.com:~$ <span class="output">More to come...</span></p>
-        <p class="prompt">gradyp.com:~$ <span class="output">cd /www.snand.org/ #<a href="https://www.snand.org">go here instead</a></span></p>
+        <p class="prompt">gradyp.com:~$ <span class="output">cd /www.snand.org/ #<a href="https://www.snand.org">snand.org</a></span></p>
         <p class="prompt">gradyp.com:~$ <span class="cursor"></span></p> <!-- Fake blinking cursor -->
     </div>
 
