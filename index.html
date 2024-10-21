@@ -62,6 +62,22 @@
             }
         }
 
+        /* Style for dynamic horizontal rules made of = */
+        .rule {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        /* Equals sign row that dynamically adjusts width */
+        .rule::before {
+            content: "================================================================================";
+            display: inline-block;
+            max-width: 80ch; /* Limit the length to 80 characters */
+            width: 100%; /* Adjust to fit smaller screens */
+        }
+
         /* Mobile adjustments - smaller font size for smaller screens */
         @media (max-width: 600px) {
             .terminal {
@@ -96,19 +112,19 @@
         <p class="prompt">SSH to gradyp.com</p>
         <p class="prompt">login: anonymous</p>
         <p class="prompt">Password: ********</p>
-        <p class="prompt">Last login: Sun Oct 20 22:30:05 2024 from <span id="user-ip">[Fetching IP...]</span></p>
+        <p class="prompt">Last login: Sun Oct 20 22:56:06 2024 from <span id="user-ip">[Fetching IP...]</span></p>
 
         <!-- Start of SSH MOTD message -->
         <div class="center">
+            <div class="rule"></div> <!-- Dynamic rule of = -->
             <span class="output">
-================================================================================<br>
 Welcome to gradyp.com, the professional home of Grady Peterson. <br>
 <br>
 With over 20 years of experience in enterprise system building, team leadership, migrations both on-prem and cloud, I’ve never stopped learning and growing. I started in traditional server-based infrastructure, moved into virtualization across servers and storage, and today, I’m embracing all the modern container and cloud technologies that this old chunk of coal can keep up with. A growth mindset and a passion for understanding systems as deeply as possible has brought me where I am today.<br>
 <br>
 Here you will find my resume and other professional artifacts from my career.  More yet to come...<br>
-================================================================================<br>
             </span> 
+            <div class="rule"></div> <!-- Dynamic rule of = -->
         </div>
 
         <!-- Email line moved out of the centered MOTD -->
