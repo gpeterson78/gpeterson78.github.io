@@ -19,13 +19,12 @@
             overflow: hidden; /* Prevent unnecessary scrolling */
         }
 
-        /* Terminal window styling - Minimum 60 characters, Maximum 80 */
+        /* Terminal window styling - Ensure width between 60 and 80 characters */
         .terminal {
-            min-width: 60ch; /* Minimum width of 60 characters */
-            max-width: 80ch; /* Maximum width of 80 characters */
-            width: 100%; /* Scale down to fit smaller screens */
-            word-wrap: break-word; /* Break long words to wrap text */
+            width: 80ch;
+            max-width: 100vw; /* Fit within the viewport width on smaller screens */
             overflow-x: auto; /* Allow horizontal scrolling if necessary */
+            white-space: pre; /* Prevent wrapping of logo and terminal content */
         }
 
         /* Prompt text styling */
@@ -42,7 +41,6 @@
             white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
             font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
             line-height: 1; /* Reduce spacing between output lines */
-            overflow-x: auto; /* Allow horizontal scrolling for long lines */
         }
 
         /* Links styling */
@@ -84,25 +82,25 @@
             width: 100%; /* Adjust to fit smaller screens */
         }
 
-        /* Mobile adjustments - smaller font size for smaller screens */
-        @media (max-width: 640px) {
+        /* Mobile adjustments */
+        @media (max-width: 600px) {
             .terminal {
-                font-size: 0.85em; /* Scale down the font on small screens */
+                width: 100%; /* Allow terminal to scale down */
+                font-size: 0.8em; /* Adjust font size on smaller screens */
             }
             body {
                 padding: 10px; /* Less padding on smaller screens */
             }
-            .output, .prompt {
-                font-size: 0.75em; /* Scale down font size */
-            }
         }
     </style>
 
+    <!-- JavaScript to fetch and insert user's IP address and random quotes -->
     <script>
         // Fetch the user's IP address using a public API
         fetch('https://api.ipify.org?format=json')
             .then(response => response.json())
             .then(data => {
+                // Insert the IP address into the "Last login" message
                 document.getElementById('user-ip').textContent = data.ip;
             })
             .catch(error => console.log('Error fetching IP:', error));
@@ -113,7 +111,7 @@
             .then(data => {
                 const quotes = data.quotes;
                 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-                const formattedQuote = `"${randomQuote.quote}"\n--${randomQuote.author}`;
+                const formattedQuote = `"${randomQuote.quote}"\n--${randomQuote.author}`; // Display author on new line
                 document.getElementById('random-quote').textContent = formattedQuote;
             })
             .catch(error => console.log('Error fetching quotes:', error));
@@ -128,7 +126,8 @@
         <pre class="prompt">$ root@gradyp.com's password: ********</pre>
         <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
 
-        <div class="rule"></div>
+        <!-- Start of SSH MOTD message -->
+        <div class="rule"></div> <!-- Dynamic rule of = -->
         <pre class="output">
 Welcome to               __                                
    ____ __________ _____/ /_  ______   _________  ____ ___ 
@@ -139,14 +138,12 @@ Welcome to               __
 
 The personal home of Grady Peterson, Infrastructure Architect.  Designing systems for work, building them for fun.
         </pre>
-
         <!-- Random Quote Display -->
         <p class="output" id="random-quote"></p>
-        <div class="rule"></div>
+        <div class="rule"></div> <!-- Dynamic rule of = -->
         <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
-
         <pre class="prompt">Last login: Sun Oct 20 08:00:10 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
-        
+        <!-- Terminal-style content starts here -->
         <pre class="output">
 root@gradyp.com:~$ ls -lah
 total 76K
@@ -155,7 +152,6 @@ drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://github.com/gpeterson78
 -rw-r--r-- 1 root root  807 Sep  1 14:10 <a href="https://www.gradyp.com/gcp">.profile</a>
 -rwxr-xr-x 1 root root 7.9K Sep 22 19:54 <a href="https://www.snand.org">snand.org</a>
         </pre>
-
         <pre class="prompt">root@gradyp.com:~$ <span class="cursor"></span></pre> <!-- Fake blinking cursor -->
     </div>
 </body>
