@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=640, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"> <!-- Adjust viewport width to fit 80 characters -->
     <title>gradyp.com</title>
     <style>
         /* General body styling */
@@ -13,16 +13,15 @@
             padding: 20px;
             margin: 0;
             display: flex;
-            justify-content: flex-start; /* Left align the content */
-            align-items: flex-start; /* Left align the content */
+            justify-content: center; /* Center the content */
+            align-items: flex-start;
             min-height: 100vh; /* Ensure it takes up full height of viewport */
             overflow: hidden; /* Prevent unnecessary scrolling */
         }
 
-        /* Terminal window styling - 80 character width simulation */
+        /* Terminal window styling - Fixed 80 character width */
         .terminal {
-            width: 100%; /* Set to 100% width */
-            max-width: 80ch; /* Limit the width to 80 characters */
+            width: 640px; /* 80 characters x 8px character width */
             word-wrap: break-word; /* Break long words to wrap text */
         }
 
@@ -79,16 +78,6 @@
             display: inline-block;
             max-width: 80ch; /* Limit the length to 80 characters */
             width: 100%; /* Adjust to fit smaller screens */
-        }
-
-        /* Mobile adjustments - smaller font size for smaller screens */
-        @media (max-width: 600px) {
-            body {
-                padding: 10px; /* Less padding on smaller screens */
-            }
-            .output, .prompt {
-                font-size: 0.85em; /* Slightly scale down font size */
-            }
         }
     </style>
 
