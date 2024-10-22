@@ -93,53 +93,6 @@
                 font-size: 0.9em; /* Scale down font size for small screens */
             }
         }
-
-        /* Video Modal Styles */
-        .video-modal {
-            display: none; /* Initially hidden */
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.75); /* Darkened background */
-            justify-content: center;
-            align-items: center;
-            z-index: 1000; /* Ensure it's on top of other elements */
-        }
-
-        .video-container {
-            position: relative;
-            width: 720px;
-            height: 405px; /* Aspect ratio for 720p */
-        }
-
-        .video-modal iframe {
-            width: 100%;
-            height: 100%;
-        }
-
-        .close-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: white;
-            color: black;
-            padding: 5px 10px;
-            cursor: pointer;
-            z-index: 1001;
-        }
-
-        .close-btn:hover {
-            background: red;
-        }
-
-        @media (max-width: 768px) {
-            .video-container {
-                width: 100%;
-                height: auto;
-            }
-        }
     </style>
 
     <!-- JavaScript to fetch and insert user's IP address and random quotes -->
@@ -164,27 +117,8 @@
                 document.getElementById('random-quote-small').textContent = formattedQuote; // Ensure quote shows up for both layouts
             })
             .catch(error => console.log('Error fetching quotes:', error));
-
-        // Function to show the video modal
-        function openModal(videoUrl) {
-            document.getElementById('video-modal').style.display = 'flex';
-            document.getElementById('video-frame').src = videoUrl + "?autoplay=1"; // Auto-play video when modal is open
-        }
-
-        // Function to close the video modal
-        function closeModal() {
-            document.getElementById('video-modal').style.display = 'none';
-            document.getElementById('video-frame').src = ""; // Stop video playback when modal is closed
-        }
-
-        // Close modal when clicking outside of the video
-        window.onclick = function(event) {
-            const modal = document.getElementById('video-modal');
-            if (event.target == modal) {
-                closeModal();
-            }
-        };
     </script>
+
 </head>
 <body>
 
@@ -239,29 +173,19 @@ The personal home of Grady Peterson, Infrastructure Architect. Designing systems
         </div>
 
         <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
-        <pre class="prompt">Last login: Tue Oct 22 18:53:14 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
+        <pre class="prompt">Last login: Tue Oct 22 13:25:13 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
 
         <!-- Terminal-style content starts here -->
         <pre class="output">
 root@gradyp.com:~$ ls -lah
-total 153M
+total 1.6M
 drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://www.gradyp.com">.</a>
 drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://github.com/gpeterson78/gpeterson78.github.io">..</a>
--rw-r--r-- 1 root root  807 Oct 20 2024  <a href="https://www.gradyp.com/gcp">.profile</a>
--rw-r--r-- 1 root root 1.6M Oct 22 2024  <a href="https://www.linkedin.com/in/gradypeterson/">linkedin.com</a>
--rwxr-xr-x 1 root root 7.9K Oct 20 2024  <a href="https://www.snand.org">snand.org</a>
--rwxrw-r-- 1 root root 102M Aug  5 2007  <a href="javascript:void(0)" onclick="openModal('https://www.youtube.com/embed/tFkg8LSMegw')">DataCenter720p.m4v</a>
--rwxrw-r-- 1 root root 255K Jul 29 2010  <a href="javascript:void(0)" onclick="openModal('https://www.youtube.com/embed/f12KoMSAOpE')">'VID 00001-20100324-0942.3GP'</a>
--rwxrwxrwx 1 root root  49M Mar  5 2013  <a href="javascript:void(0)" onclick="openModal('https://youtube.com/embed/M2_Az4UQP0k')">'Video Mar 04, 3 16 27 PM.mov'</a>
+-rw-r--r-- 1 root root  807 Oct 20 14:10 <a href="https://www.gradyp.com/gcp">.profile</a>
+-rw-r--r-- 1 root root 1.6M Oct 22 12:37 <a href="https://www.linkedin.com/in/gradypeterson/">linkedin.com</a>
+-rwxr-xr-x 1 root root 7.9K Oct 20 19:54 <a href="https://www.snand.org">snand.org</a>
         </pre>
         <pre class="prompt">root@gradyp.com:~$ <span class="cursor"></span></pre> <!-- Fake blinking cursor -->
-    </div>
-    <!-- Video Modal -->
-    <div id="video-modal" class="video-modal">
-        <div class="video-container">
-            <iframe id="video-frame" src="https://www.youtube.com/embed/tFkg8LSMegw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <span class="close-btn" onclick="closeModal()">X</span>
     </div>
 </body>
 </html>
