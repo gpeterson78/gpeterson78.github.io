@@ -12,48 +12,39 @@
             font-family: "Courier New", Courier, monospace; /* Monospace font for terminal look */
             padding: 20px;
             margin: 0;
-            display: flex;
-            justify-content: center; /* Center horizontally */
-            align-items: flex-start; /* Align content at the top */
-            height: 100vh; /* Ensure full viewport height */
-            overflow-y: auto; /* Allow vertical scrolling */
+            display: block;
+            min-width: 60ch;
+            overflow: auto; /* Enable global scrolling */
         }
 
-        /* Terminal window styling - 80 character width simulation */
+        /* Terminal window styling - enforcing min 60 character width */
         .terminal {
-            width: 80ch; /* Set width to 80 characters */
-            max-width: 100%; /* Ensure it scales on smaller screens */
-            white-space: pre-wrap; /* Preserve newlines and spaces while wrapping */
-            overflow-x: auto; /* Allow horizontal scrolling */
-            line-height: 1.2; /* Manage the line spacing */
+            width: 80ch; /* Set the width to 80 characters for consistency */
+            white-space: nowrap; /* Prevent wrapping */
         }
 
         /* Prompt text styling */
         .prompt {
             color: #00ff00; /* Bright terminal green for prompt */
-            line-height: 1; /* Tight line spacing */
+            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for prompt */
+            line-height: 1; /* Reduce spacing between prompt lines */
         }
 
         /* Terminal output styling */
         .output {
-            color: #00ff00; /* Default bright green for output */
-            white-space: pre-wrap; /* Preserve newlines */
-            line-height: 1.2; /* Consistent line spacing for terminal output */
-        }
-
-        /* Styling for subdued green quotes */
-        .quote {
-            color: #00aa00; /* Subdued green for quotes */
-            white-space: pre-wrap; /* Preserve newlines */
-            line-height: 1.2; /* Same line height for consistency */
+            color: #00aa00; /* Subdued green for regular output text */
+            display: block; /* Ensure each line is treated as block for proper line breaks */
+            white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
+            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
+            line-height: 1; /* Reduce spacing between output lines */
         }
 
         /* Links styling */
         a {
-            color: #3333FF; /* Bright blue for links */
+            color: #3333FF; /* Brighter blue for links */
             text-decoration: none;
         }
-
+        
         a:hover {
             text-decoration: underline; /* Underline effect when hovering over links */
         }
@@ -71,10 +62,15 @@
             }
         }
 
-        /* Mobile adjustments */
+        /* Style for dynamic horizontal rules made of = */
+        .rule {
+            white-space: pre; /* Ensure = characters respect the preformatted text style */
+        }
+
+        /* Mobile adjustments - smaller font size for smaller screens */
         @media (max-width: 600px) {
             .terminal {
-                font-size: 0.75em; /* Reduce font size on smaller screens */
+                font-size: 0.75em; /* Scale down font size on smaller screens */
             }
             body {
                 padding: 10px; /* Less padding on smaller screens */
@@ -115,8 +111,8 @@
         <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
 
         <!-- Start of SSH MOTD message -->
+        <div class="rule">================================================================================</div>
         <pre class="output">
-================================================================================
 Welcome to               __                                
    ____ __________ _____/ /_  ______   _________  ____ ___ 
   / __ `/ ___/ __ `/ __  / / / / __ \ / ___/ __ \/ __ `__ \
@@ -124,21 +120,13 @@ Welcome to               __
  \__, /_/   \__,_/\__,_/\__, / .___(_)___/\____/_/ /_/ /_/ 
 /____/                 /____/_/                            
 
-The personal home of Grady Peterson, Infrastructure Architect.  
-Designing systems for work, building them for fun.
-================================================================================
+The personal home of Grady Peterson, Infrastructure Architect.  Designing systems for work, building them for fun.
         </pre>
-
         <!-- Random Quote Display -->
-        <p class="quote" id="random-quote"></p>
-
-        <!-- Email in terminal output style -->
-        <pre class="output">
-For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.
-        </pre>
-
+        <p class="output" id="random-quote"></p>
+        <div class="rule">================================================================================</div>
+        <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
         <pre class="prompt">Last login: Sun Oct 20 08:00:10 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
-        
         <!-- Terminal-style content starts here -->
         <pre class="output">
 root@gradyp.com:~$ ls -lah
