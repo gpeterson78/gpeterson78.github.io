@@ -31,6 +31,8 @@
             font-family: "Courier New", Courier, monospace; /* Ensure terminal font for prompt */
             font-weight: bold; /* Ensure bold for prompt */
             line-height: 1; /* Reduce spacing between prompt lines */
+            white-space: pre-wrap; /* Ensure prompt wraps like output */
+            width: 80ch; /* Ensure prompt is limited to 80 characters */
         }
 
         /* Terminal output styling */
@@ -40,6 +42,7 @@
             white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
             font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
             line-height: 1; /* Reduce spacing between output lines */
+            width: 80ch; /* Ensure output is limited to 80 characters */
         }
 
         /* Links styling */
