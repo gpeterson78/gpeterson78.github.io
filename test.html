@@ -21,7 +21,7 @@
 
         /* Terminal window styling - 80 character width simulation */
         .terminal {
-            width: 80ch; /* Set the width to 80 characters */
+            max-width: 80ch; /* Set the width to 80 characters */
             word-wrap: break-word; /* Break long words to wrap text */
         }
 
@@ -80,7 +80,7 @@
             width: 100%; /* Adjust to fit smaller screens */
         }
 
-        /* Mobile adjustments */
+        /* Mobile adjustments - smaller font size for smaller screens */
         @media (max-width: 600px) {
             .terminal {
                 width: 100vw; /* Allow the terminal to scale down to fit the screen */
@@ -91,6 +91,19 @@
             }
             .output, .prompt {
                 font-size: 0.85em; /* Slightly scale down font size */
+            }
+        }
+
+        /* Handle screen rotation to recalibrate the layout */
+        @media (orientation: landscape) {
+            .terminal {
+                max-width: 90vw; /* Slightly increase width on landscape mode */
+            }
+        }
+
+        @media (orientation: portrait) {
+            .terminal {
+                max-width: 80vw; /* Keep it at 80vw for portrait mode */
             }
         }
     </style>
