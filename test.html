@@ -76,7 +76,7 @@
             white-space: nowrap;
         }
 
-        /* Equals sign row that dynamically adjusts width */
+        /* Equals sign row for large screens (80 characters) */
         .rule::before {
             content: "================================================================================";
             display: inline-block;
@@ -110,6 +110,12 @@
             }
             .small-logo {
                 display: block; /* Show the small logo on small screens */
+            }
+
+            /* Equals sign row for mobile screens (60 characters) */
+            .rule::before {
+                content: "============================================================";
+                max-width: 60ch; /* Limit the length to 60 characters */
             }
         }
     </style>
@@ -163,11 +169,11 @@ Welcome to               __
         <div class="small-logo">
             <div class="rule"></div> <!-- Dynamic rule of = -->
             <pre class="prompt">
-Welcome to          __                       
+welcome to          __                       
   ___ ________ ____/ /_ _____   _______  __ _ 
  / _ `/ __/ _ `/ _  / // / _ \_/ __/ _ \/  ' \
  \_, /_/  \_,_/\_,_/\_, / .__(_)__/\___/_/_/_/
-/___/              /___/_/                                      
+/___/              /___/_/                    
             </pre>
         </div>
 
