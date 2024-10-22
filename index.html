@@ -3,45 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Welcome</title>
+    <title>gradyp.com</title>
     <style>
         /* General body styling */
         body {
             background-color: black; /* Classic terminal black background */
-            color: #00ff00; /* Terminal green text */
+            color: #00ff00; /* Default terminal green text */
             font-family: "Courier New", Courier, monospace; /* Monospace font for terminal look */
             padding: 20px;
             margin: 0;
             display: flex;
-            justify-content: center; /* Centers the content horizontally */
-            align-items: center; /* Centers the content vertically */
-            height: 100vh; /* Makes sure the content takes up full viewport height */
+            justify-content: flex-start; /* Left align the content */
+            align-items: flex-start; /* Left align the content */
+            min-height: 100vh; /* Ensure it takes up full height of viewport */
+            overflow: hidden; /* Prevent unnecessary scrolling */
         }
 
         /* Terminal window styling - 80 character width simulation */
         .terminal {
             width: 80ch; /* Set the width to 80 characters */
-        }
-
-        /* Centered text styling for the MOTD */
-        .center {
-            text-align: center;
+            word-wrap: break-word; /* Break long words to wrap text */
         }
 
         /* Prompt text styling */
         .prompt {
-            color: #00ff00; /* Terminal green for prompt */
+            color: #00ff00; /* Bright terminal green for prompt */
+            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for prompt */
+            line-height: 1; /* Reduce spacing between prompt lines */
         }
 
-        /* Terminal output (e.g., "Welcome", links, etc.) */
+        /* Terminal output styling */
         .output {
-            color: #00aa00; /* Subdued green for terminal output text */
+            color: #00aa00; /* Subdued green for regular output text */
             display: block; /* Ensure each line is treated as block for proper line breaks */
+            white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
+            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
+            line-height: 1; /* Reduce spacing between output lines */
         }
 
         /* Links styling */
         a {
-            color: #3333ff; /* Brighter green for links */
+            color: #3333FF; /* Brighter blue for links */
             text-decoration: none;
         }
         
@@ -65,7 +67,7 @@
         /* Style for dynamic horizontal rules made of = */
         .rule {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             overflow: hidden;
             white-space: nowrap;
         }
@@ -92,7 +94,7 @@
         }
     </style>
 
-    <!-- JavaScript to fetch and insert user's IP address -->
+    <!-- JavaScript to fetch and insert user's IP address and random quotes -->
     <script>
         // Fetch the user's IP address using a public API
         fetch('https://api.ipify.org?format=json')
@@ -102,6 +104,17 @@
                 document.getElementById('user-ip').textContent = data.ip;
             })
             .catch(error => console.log('Error fetching IP:', error));
+
+        // Fetch quotes from JSON and display a random one
+        fetch('quotes.json')
+            .then(response => response.json())
+            .then(data => {
+                const quotes = data.quotes;
+                const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                const formattedQuote = `"${randomQuote.quote}"\n--${randomQuote.author}`; // Display author on new line
+                document.getElementById('random-quote').textContent = formattedQuote;
+            })
+            .catch(error => console.log('Error fetching quotes:', error));
     </script>
 
 </head>
@@ -109,32 +122,37 @@
 
     <!-- SSH login simulation -->
     <div class="terminal">
-        <p class="prompt">SSH to gradyp.com</p>
-        <p class="prompt">login: anonymous</p>
-        <p class="prompt">Password: ********</p>
-        <p class="prompt">Last login: Sun Oct 20 22:56:06 2024 from <span id="user-ip">[Fetching IP...]</span></p>
+        <pre class="prompt">$ ssh root@gradyp.com</pre>
+        <pre class="prompt">$ root@gradyp.com's password: ********</pre>
+        <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
 
         <!-- Start of SSH MOTD message -->
-        <div class="center">
-            <div class="rule"></div> <!-- Dynamic rule of = -->
-            <span class="output">
-Welcome to gradyp.com, the professional home of Grady Peterson. <br>
-<br>
-With over 20 years of experience in enterprise system building, team leadership, migrations both on-prem and cloud, I’ve never stopped learning and growing. I started in traditional server-based infrastructure, moved into virtualization across servers and storage, and today, I’m embracing all the modern container and cloud technologies that this old chunk of coal can keep up with. A growth mindset and a passion for understanding systems as deeply as possible has brought me where I am today.<br>
-<br>
-Here you will find my resume and other professional artifacts from my career.  More yet to come...<br>
-            </span> 
-            <div class="rule"></div> <!-- Dynamic rule of = -->
-        </div>
+        <div class="rule"></div> <!-- Dynamic rule of = -->
+        <pre class="output">
+Welcome to               __                                
+   ____ __________ _____/ /_  ______   _________  ____ ___ 
+  / __ `/ ___/ __ `/ __  / / / / __ \ / ___/ __ \/ __ `__ \
+ / /_/ / /  / /_/ / /_/ / /_/ / /_/ // /__/ /_/ / / / / / /
+ \__, /_/   \__,_/\__,_/\__, / .___(_)___/\____/_/ /_/ /_/ 
+/____/                 /____/_/                            
 
-        <!-- Email line moved out of the centered MOTD -->
-        <span class="output">For complaints or praise, contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
-        
+The personal home of Grady Peterson, Infrastructure Architect.  Designing systems for work, building them for fun.
+        </pre>
+        <!-- Random Quote Display -->
+        <p class="output" id="random-quote"></p>
+        <div class="rule"></div> <!-- Dynamic rule of = -->
+        <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
+        <pre class="prompt">Last login: Sun Oct 20 08:00:10 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
         <!-- Terminal-style content starts here -->
-        <p class="prompt">gradyp.com:~$ <span class="output">cd /gcp #<a href="https://www.gradyp.com/gcp">professional profile</a></span></p>
-        <p class="prompt">gradyp.com:~$ <span class="output">cd /www.snand.org/ #<a href="https://www.snand.org">go check out snand.org</a></span></p>
-        <p class="prompt">gradyp.com:~$ <span class="cursor"></span></p> <!-- Fake blinking cursor -->
+        <pre class="output">
+root@gradyp.com:~$ ls -lah
+total 76K
+drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://www.gradyp.com">.</a>
+drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://github.com/gpeterson78/gpeterson78.github.io">..</a>
+-rw-r--r-- 1 root root  807 Sep  1 14:10 <a href="https://www.gradyp.com/gcp">.profile</a>
+-rwxr-xr-x 1 root root 7.9K Sep 22 19:54 <a href="https://www.snand.org">snand.org</a>
+        </pre>
+        <pre class="prompt">root@gradyp.com:~$ <span class="cursor"></span></pre> <!-- Fake blinking cursor -->
     </div>
-
 </body>
 </html>

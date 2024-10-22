@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Welcome</title>
+    <style>
+        /* General body styling */
+        body {
+            background-color: black; /* Classic terminal black background */
+            color: #00ff00; /* Terminal green text */
+            font-family: "Courier New", Courier, monospace; /* Monospace font for terminal look */
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Centers the content horizontally */
+            align-items: center; /* Centers the content vertically */
+            height: 100vh; /* Makes sure the content takes up full viewport height */
+        }
+
+        /* Terminal window styling - 80 character width simulation */
+        .terminal {
+            width: 80ch; /* Set the width to 80 characters */
+        }
+
+        /* Centered text styling for the MOTD */
+        .center {
+            text-align: center;
+        }
+
+        /* Prompt text styling */
+        .prompt {
+            color: #00ff00; /* Terminal green for prompt */
+        }
+
+        /* Terminal output (e.g., "Welcome", links, etc.) */
+        .output {
+            color: #00aa00; /* Subdued green for terminal output text */
+            display: block; /* Ensure each line is treated as block for proper line breaks */
+        }
+
+        /* Links styling */
+        a {
+            color: #3333ff; /* Brighter green for links */
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline; /* Underline effect when hovering over links */
+        }
+
+        /* Terminal-like blinking cursor */
+        .cursor {
+            border-right: 2px solid #00ff00;
+            animation: blink 1s steps(2, start) infinite;
+        }
+
+        /* Blinking cursor animation */
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        /* Style for dynamic horizontal rules made of = */
+        .rule {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        /* Equals sign row that dynamically adjusts width */
+        .rule::before {
+            content: "================================================================================";
+            display: inline-block;
+            max-width: 80ch; /* Limit the length to 80 characters */
+            width: 100%; /* Adjust to fit smaller screens */
+        }
+
+        /* Mobile adjustments - smaller font size for smaller screens */
+        @media (max-width: 600px) {
+            .terminal {
+                width: 100%; /* Allow the terminal to scale down to fit the screen */
+            }
+            body {
+                padding: 10px; /* Less padding on smaller screens */
+            }
+            .output, .prompt {
+                font-size: 0.75em; /* Scale down font size */
+            }
+        }
+    </style>
+
+    <!-- JavaScript to fetch and insert user's IP address -->
+    <script>
+        // Fetch the user's IP address using a public API
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                // Insert the IP address into the "Last login" message
+                document.getElementById('user-ip').textContent = data.ip;
+            })
+            .catch(error => console.log('Error fetching IP:', error));
+    </script>
+
+</head>
+<body>
+
+    <!-- SSH login simulation -->
+    <div class="terminal">
+        <p class="prompt">SSH to gradyp.com</p>
+        <p class="prompt">login: anonymous</p>
+        <p class="prompt">Password: ********</p>
+        <p class="prompt">Last login: Sun Oct 20 22:56:06 2024 from <span id="user-ip">[Fetching IP...]</span></p>
+
+        <!-- Start of SSH MOTD message -->
+        <div class="center">
+            <div class="rule"></div> <!-- Dynamic rule of = -->
+            <span class="output">
+Welcome to gradyp.com, the professional home of Grady Peterson. <br>
+<br>
+With over 20 years of experience in enterprise system building, team leadership, migrations both on-prem and cloud, I’ve never stopped learning and growing. I started in traditional server-based infrastructure, moved into virtualization across servers and storage, and today, I’m embracing all the modern container and cloud technologies that this old chunk of coal can keep up with. A growth mindset and a passion for understanding systems as deeply as possible has brought me where I am today.<br>
+<br>
+Here you will find my resume and other professional artifacts from my career.  More yet to come...<br>
+            </span> 
+            <div class="rule"></div> <!-- Dynamic rule of = -->
+        </div>
+
+        <!-- Email line moved out of the centered MOTD -->
+        <span class="output">For complaints or praise, contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
+        
+        <!-- Terminal-style content starts here -->
+        <p class="prompt">gradyp.com:~$ <span class="output">cd /gcp #<a href="https://www.gradyp.com/gcp">professional profile</a></span></p>
+        <p class="prompt">gradyp.com:~$ <span class="output">cd /www.snand.org/ #<a href="https://www.snand.org">go check out snand.org</a></span></p>
+        <p class="prompt">gradyp.com:~$ <span class="cursor"></span></p> <!-- Fake blinking cursor -->
+    </div>
+
+</body>
+</html>
