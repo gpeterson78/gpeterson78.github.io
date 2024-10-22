@@ -16,29 +16,30 @@
             justify-content: flex-start; /* Left align the content */
             align-items: flex-start; /* Left align the content */
             min-height: 100vh; /* Ensure it takes up full height of viewport */
-            overflow: hidden; /* Prevent unnecessary scrolling */
+            overflow: auto; /* Allow scrolling when necessary */
         }
 
-        /* Terminal window styling - 80 character width simulation */
+        /* Terminal window styling */
         .terminal {
-            width: 80ch; /* Set the width to 80 characters */
-            word-wrap: break-word; /* Break long words to wrap text */
+            overflow: auto; /* Ensure scrolling for the terminal */
         }
 
-        /* Prompt text styling */
+        /* General prompt and output styles */
+        .prompt, .output {
+            font-family: "Courier New", Courier, monospace;
+            white-space: pre-wrap;
+            line-height: 1;
+        }
+
+        /* Prompt specific styling */
         .prompt {
             color: #00ff00; /* Bright terminal green for prompt */
-            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for prompt */
-            line-height: 1; /* Reduce spacing between prompt lines */
+            font-weight: bold; /* Ensure bold for prompt */
         }
 
-        /* Terminal output styling */
+        /* Output specific styling */
         .output {
-            color: #00aa00; /* Subdued green for regular output text */
-            display: block; /* Ensure each line is treated as block for proper line breaks */
-            white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
-            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
-            line-height: 1; /* Reduce spacing between output lines */
+            color: #00aa00; /* Subdued green for output text */
         }
 
         /* Links styling */
@@ -46,7 +47,7 @@
             color: #3333FF; /* Brighter blue for links */
             text-decoration: none;
         }
-        
+
         a:hover {
             text-decoration: underline; /* Underline effect when hovering over links */
         }
@@ -64,32 +65,32 @@
             }
         }
 
-        /* Style for dynamic horizontal rules made of = */
-        .rule {
-            display: flex;
-            justify-content: flex-start;
-            overflow: hidden;
-            white-space: nowrap;
+        /* Large logo and content (80 characters) */
+        .large-content {
+            display: block;
+            width: 80ch;
         }
 
-        /* Equals sign row that dynamically adjusts width */
-        .rule::before {
-            content: "================================================================================";
-            display: inline-block;
-            max-width: 80ch; /* Limit the length to 80 characters */
-            width: 100%; /* Adjust to fit smaller screens */
+        /* Small logo and content (60 characters) */
+        .small-content {
+            display: none;
+            width: 60ch;
         }
 
-        /* Mobile adjustments - smaller font size for smaller screens */
+        /* Mobile adjustments */
         @media (max-width: 600px) {
-            .terminal {
-                width: 100%; /* Allow the terminal to scale down to fit the screen */
-            }
             body {
-                padding: 10px; /* Less padding on smaller screens */
+                padding: 10px;
+                font-size: 0.8em; /* Smaller font for small screens */
+            }
+            .large-content {
+                display: none; /* Hide large content on mobile */
+            }
+            .small-content {
+                display: block; /* Show small content on mobile */
             }
             .output, .prompt {
-                font-size: 0.75em; /* Scale down font size */
+                font-size: 0.9em; /* Scale down font size for small screens */
             }
         }
     </style>
@@ -112,7 +113,8 @@
                 const quotes = data.quotes;
                 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
                 const formattedQuote = `"${randomQuote.quote}"\n--${randomQuote.author}`; // Display author on new line
-                document.getElementById('random-quote').textContent = formattedQuote;
+                document.getElementById('random-quote-large').textContent = formattedQuote;
+                document.getElementById('random-quote-small').textContent = formattedQuote; // Ensure quote shows up for both layouts
             })
             .catch(error => console.log('Error fetching quotes:', error));
     </script>
@@ -122,27 +124,57 @@
 
     <!-- SSH login simulation -->
     <div class="terminal">
-        <pre class="prompt">$ ssh root@gradyp.com</pre>
-        <pre class="prompt">$ root@gradyp.com's password: ********</pre>
-        <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
 
-        <!-- Start of SSH MOTD message -->
-        <div class="rule"></div> <!-- Dynamic rule of = -->
-        <pre class="output">
-Welcome to               __                                 
-   ____ __________ _____/ /_  ______   _________  ____ ___  
-  / __ `/ ___/ __ `/ __  / / / / __ \ / ___/ __ \/ __ `__ \ 
- / /_/ / /  / /_/ / /_/ / /_/ / /_/ // /__/ /_/ / / / / / / 
- \__, /_/   \__,_/\__,_/\__, / .___(_)___/\____/_/ /_/ /_/  
-/____/                 /____/_/                             
+        <!-- Large Rule and Logo (80 characters) -->
+        <div class="large-content">
+            <pre class="prompt">$ ssh root@gradyp.com</pre>
+            <pre class="prompt">$ root@gradyp.com's password: ********</pre>
+            <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
+            <div>================================================================================</div>
+            <pre class="prompt">
+Welcome to               __                                
+   ____ __________ _____/ /_  ______   _________  ____ ___ 
+  / __ `/ ___/ __ `/ __  / / / / __ \ / ___/ __ \/ __ `__ \
+ / /_/ / /  / /_/ / /_/ / /_/ / /_/ // /__/ /_/ / / / / / /
+ \__, /_/   \__,_/\__,_/\__, / .___(_)___/\____/_/ /_/ /_/ 
+/____/                 /____/_/                            
+            </pre>
+            <pre class="prompt">
+The personal home of Grady Peterson, Infrastructure Architect. Designing systems for work, building them for fun.
+            </pre>
 
-The personal home of Grady Peterson, Infrastructure Architect.  Designing systems for work, building them for fun.
-        </pre>
-        <!-- Random Quote Display -->
-        <p class="output" id="random-quote"></p>
-        <div class="rule"></div> <!-- Dynamic rule of = -->
+            <!-- Random Quote Display inside the header section -->
+            <pre class="output" id="random-quote-large"></pre>
+
+            <div>================================================================================</div>
+        </div>
+
+        <!-- Small Rule and Logo (60 characters) -->
+        <div class="small-content">
+            <pre class="prompt">$ ssh root@gradyp.com</pre>
+            <pre class="prompt">$ root@gradyp.com's password: ********</pre>
+            <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
+            <div>============================================================</div>
+            <pre class="prompt">
+welcome to          __                        
+  ___ ________ ____/ /_ _____   _______  __ _ 
+ / _ `/ __/ _ `/ _  / // / _ \_/ __/ _ \/  ' \
+ \_, /_/  \_,_/\_,_/\_, / .__(_)__/\___/_/_/_/
+/___/              /___/_/                                        
+            </pre>
+            <pre class="prompt">
+The personal home of Grady Peterson, Infrastructure Architect. Designing systems for work, building them for fun.
+            </pre>
+
+            <!-- Random Quote Display inside the header section -->
+            <pre class="output" id="random-quote-small"></pre>
+
+            <div>============================================================</div>
+        </div>
+
         <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
         <pre class="prompt">Last login: Sun Oct 20 08:00:10 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
+
         <!-- Terminal-style content starts here -->
         <pre class="output">
 root@gradyp.com:~$ ls -lah
