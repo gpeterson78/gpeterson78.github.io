@@ -19,27 +19,28 @@
             overflow: auto; /* Allow scrolling when necessary */
         }
 
-        /* Terminal window styling */
+        /* Base Terminal window styling */
         .terminal {
             word-wrap: break-word; /* Break long words to wrap text */
+            overflow: auto; /* Ensure scrolling for the terminal */
         }
 
-        /* Prompt text styling */
+        /* General prompt and output styles */
+        .prompt, .output {
+            font-family: "Courier New", Courier, monospace;
+            white-space: pre-wrap;
+            line-height: 1;
+        }
+
+        /* Prompt specific styling */
         .prompt {
             color: #00ff00; /* Bright terminal green for prompt */
-            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for prompt */
             font-weight: bold; /* Ensure bold for prompt */
-            line-height: 1; /* Reduce spacing between prompt lines */
-            white-space: pre-wrap; /* Ensure prompt wraps like output */
         }
 
-        /* Terminal output styling */
+        /* Output specific styling */
         .output {
-            color: #00aa00; /* Subdued green for regular output text */
-            display: block; /* Ensure each line is treated as block for proper line breaks */
-            white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
-            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
-            line-height: 1; /* Reduce spacing between output lines */
+            color: #00aa00; /* Subdued green for output text */
         }
 
         /* Links styling */
@@ -47,7 +48,7 @@
             color: #3333FF; /* Brighter blue for links */
             text-decoration: none;
         }
-        
+
         a:hover {
             text-decoration: underline; /* Underline effect when hovering over links */
         }
@@ -65,23 +66,25 @@
             }
         }
 
-        /* Large logo */
-        .large-logo, .large-rule {
+        /* Large logo and content (80 characters) */
+        .large-content {
             display: block;
+            width: 80ch;
         }
 
-        /* Small logo (initially hidden) */
-        .small-logo, .small-rule {
+        /* Small logo and content (60 characters) */
+        .small-content {
             display: none;
+            width: 60ch;
         }
 
         /* Mobile adjustments */
         @media (max-width: 600px) {
-            .large-logo, .large-rule {
-                display: none; /* Hide the large logo on small screens */
+            .large-content {
+                display: none; /* Hide large content on mobile */
             }
-            .small-logo, .small-rule {
-                display: block; /* Show the small logo and rule on small screens */
+            .small-content {
+                display: block; /* Show small content on mobile */
             }
         }
     </style>
@@ -114,40 +117,59 @@
 
     <!-- SSH login simulation -->
     <div class="terminal">
-        <pre class="prompt">$ ssh root@gradyp.com</pre>
-        <pre class="prompt">$ root@gradyp.com's password: ********</pre>
-        <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
 
         <!-- Large Rule and Logo (80 characters) -->
-        <div class="large-rule">================================================================================</div>
-        <pre class="prompt large-logo">
+        <div class="large-content">
+            <pre class="prompt">$ ssh root@gradyp.com</pre>
+            <pre class="prompt">$ root@gradyp.com's password: ********</pre>
+            <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
+            <div>================================================================================</div>
+            <pre class="prompt">
 Welcome to               __                                
    ____ __________ _____/ /_  ______   _________  ____ ___ 
   / __ `/ ___/ __ `/ __  / / / / __ \ / ___/ __ \/ __ `__ \
  / /_/ / /  / /_/ / /_/ / /_/ / /_/ // /__/ /_/ / / / / / /
  \__, /_/   \__,_/\__,_/\__, / .___(_)___/\____/_/ /_/ /_/ 
 /____/                 /____/_/                            
-        </pre>
+            </pre>
+        </div>
 
         <!-- Small Rule and Logo (60 characters) -->
-        <div class="small-rule">============================================================</div>
-        <pre class="prompt small-logo">
-welcome to          __                        
-  ___ ________ ____/ /_ _____   _______  __ _ 
- / _ `/ __/ _ `/ _  / // / _ \_/ __/ _ \/  ' \
- \_, /_/  \_,_/\_,_/\_, / .__(_)__/\___/_/_/_/
-/___/              /___/_/                                        
-        </pre>
+        <div class="small-content">
+            <pre class="prompt">$ ssh root@gradyp.com</pre>
+            <pre class="prompt">$ root@gradyp.com's password: ********</pre>
+            <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
+            <div>============================================================</div>
+            <pre class="prompt">
+                     __                       
+  ___ ________ ____/ /_ ______ _______  __ _ 
+ / _ `/ __/ _ `/ _  / // /___// __/ _ \/  ' \
+ \_, /_/  \_,_/\_,_/\_, /   (_)__/\___/_/_/_/
+/___/              /___/                     
+            </pre>
+        </div>
 
-        <pre class="prompt">
+        <!-- The rest of the content -->
+        <div class="large-content">
+            <pre class="prompt">
 The personal home of Grady Peterson, Infrastructure Architect.  Designing systems for work, building them for fun.
-        </pre>
+            </pre>
+            <div>================================================================================</div>
+        </div>
+
+        <div class="small-content">
+            <pre class="prompt">
+The personal home of Grady Peterson, Infrastructure Architect.  Designing systems for work, building them for fun.
+            </pre>
+            <div>============================================================</div>
+        </div>
+
         <!-- Random Quote Display -->
         <p class="output" id="random-quote"></p>
-        <div class="large-rule">================================================================================</div>
-        <div class="small-rule">============================================================</div>
+        
         <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
         <pre class="prompt">Last login: Sun Oct 20 08:00:10 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
+
         <!-- Terminal-style content starts here -->
         <pre class="output">
 root@gradyp.com:~$ ls -lah
@@ -160,4 +182,4 @@ drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://github.com/gpeterson78
         <pre class="prompt">root@gradyp.com:~$ <span class="cursor"></span></pre> <!-- Fake blinking cursor -->
     </div>
 </body>
-</
+</html>
