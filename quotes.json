@@ -1,13 +1,18 @@
 {
-    "quotes": [
-      { "quote": "I may not have gone where I intended to go, but I think I have ended up where I needed to be.", "author": "Douglas Adams" },
-      { "quote": "Some humans would do anything to see if it was possible to do it. If you put a large switch in some cave somewhere, with a sign on it saying 'End-of-the-World Switch. PLEASE DO NOT TOUCH', the paint wouldn't even have time to dry.", "author": "Terry Pratchet" },
-      { "quote": "There is a theory which states that if ever anybody discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.", "author": "Douglas Adams" },
-      { "quote": "Somewhere, something incredible is waiting to be known.", "author": "Dr. Carl Sagan" },
-      { "quote": "We'll finish this later, after I fulfill my duties with my customary adequaucivity.", "author": "Bill McNeil" },
-      { "quote": "It is easier to fool people than to convince them that they have been fooled.", "author": "Mark Twain" },
-      { "quote": "Brevity is the soul of wit.", "author": "Shakespeare" },
-      { "quote": "The third-rate mind is only happy when it is thinking with the majority. The second-rate mind is only happy when it is thinking with the minority. The first-rate mind is only happy when it is thinking.", "author": "A.A. Milne" },
-      { "quote": "The truth is that if someone is giving you a service for free, you're not the consumer - you're the product being sold.", "author": "author unknown" }
-    ]
-  }
+  "quotes": [
+    { "quote": "I may not have gone where I intended to go, but I think I have ended up where I needed to be.", "author": "Douglas Adams" },
+    { "quote": "Some humans would do anything to see if it was possible to do it. If you put a large switch in some cave somewhere, with a sign on it saying 'End-of-the-World Switch. PLEASE DO NOT TOUCH', the paint wouldn't even have time to dry.", "author": "Terry Pratchet" },
+    { "quote": "There is a theory which states that if ever anybody discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.", "author": "Douglas Adams" },
+    { "quote": "Somewhere, something incredible is waiting to be known.", "author": "Dr. Carl Sagan" },
+    { "quote": "We'll finish this later, after I fulfill my duties with my customary adequaucivity.", "author": "Bill McNeil" },
+    { "quote": "It is easier to fool people than to convince them that they have been fooled.", "author": "Mark Twain" },
+    { "quote": "Brevity is the soul of wit.", "author": "Shakespeare" },
+    { "quote": "The third-rate mind is only happy when it is thinking with the majority. The second-rate mind is only happy when it is thinking with the minority. The first-rate mind is only happy when it is thinking.", "author": "A.A. Milne" },
+    { "quote": "The truth is that if someone is giving you a service for free, you're not the consumer - you're the product being sold.", "author": "author unknown" },
+    { "quote": "If two men agree on everything, you may be sure that one of them is doing the thinking.", "author": "Lyndon Baines Johnson" },
+    { "quote": "It is impossible for a man to learn what he thinks he already knows.", "author": "Epictetus" },
+    { "quote": "Prediction is very difficult, especially about the future.", "author": "Niels Bohr" },
+    { "quote": "The most exciting phrase to hear in science, the one that heralds new discoveries, is not \"Eureka!\" but \"That's funny...\"", "author": "Isaac Asimov" },
+    { "quote": "When I was a kid I used to pray every night for a new bicycle. Then I realized that the Lord doesn't work that way so I stole one and asked Him to forgive me.", "author": "Emo Philips" }
+  ]
+}
