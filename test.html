@@ -16,13 +16,16 @@
             justify-content: flex-start; /* Left align the content */
             align-items: flex-start; /* Left align the content */
             min-height: 100vh; /* Ensure it takes up full height of viewport */
+            overflow: hidden; /* Prevent unnecessary scrolling */
         }
 
-        /* Terminal window styling - 80 character width simulation */
+        /* Terminal window styling - Minimum 60 characters, Maximum 80 */
         .terminal {
-            width: 80ch; /* Set the width to 80 characters */
+            min-width: 60ch; /* Minimum width of 60 characters */
+            max-width: 80ch; /* Maximum width of 80 characters */
+            width: 100%; /* Scale down to fit smaller screens */
             word-wrap: break-word; /* Break long words to wrap text */
-            overflow-x: auto; /* Allow horizontal scrolling */
+            overflow-x: auto; /* Allow horizontal scrolling if necessary */
         }
 
         /* Prompt text styling */
@@ -36,7 +39,7 @@
         .output {
             color: #00aa00; /* Subdued green for regular output text */
             display: block; /* Ensure each line is treated as block for proper line breaks */
-            white-space: pre; /* Prevent text wrapping */
+            white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
             font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
             line-height: 1; /* Reduce spacing between output lines */
             overflow-x: auto; /* Allow horizontal scrolling for long lines */
@@ -84,8 +87,7 @@
         /* Mobile adjustments - smaller font size for smaller screens */
         @media (max-width: 640px) {
             .terminal {
-                width: 100%; /* Allow terminal to scale down for small screens */
-                font-size: 0.85em; /* Scale down the font */
+                font-size: 0.85em; /* Scale down the font on small screens */
             }
             body {
                 padding: 10px; /* Less padding on smaller screens */
