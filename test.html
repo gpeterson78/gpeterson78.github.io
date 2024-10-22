@@ -13,17 +13,19 @@
             padding: 20px;
             margin: 0;
             display: flex;
-            justify-content: flex-start; /* Left align the content */
-            align-items: flex-start; /* Left align the content */
-            min-height: 100vh; /* Ensure it takes up full height of viewport */
-            overflow-x: auto; /* Allow horizontal scrolling if necessary */
+            justify-content: center; /* Center the content horizontally */
+            align-items: flex-start; /* Left align the content vertically */
+            height: 100vh; /* Full height of the viewport */
+            overflow: hidden; /* Prevent unnecessary scrolling */
         }
 
         /* Terminal window styling - fixed at 80 characters */
         .terminal {
             width: 80ch; /* Set the width to 80 characters */
-            overflow-x: auto; /* Horizontal scroll for smaller screens */
-            white-space: pre; /* Prevent wrapping in terminal */
+            max-width: 100%; /* Allow scaling on smaller screens */
+            white-space: pre-wrap; /* Preserve newlines and prevent text wrapping */
+            overflow-x: auto; /* Allow horizontal scrolling if needed */
+            line-height: 1.2; /* Manage the line spacing */
         }
 
         /* Prompt text styling */
@@ -34,21 +36,21 @@
 
         /* Terminal output styling */
         .output {
-            color: #00ff00; /* Default bright green text for terminal output */
-            white-space: pre-wrap; /* Preserve newlines and spaces while allowing wrapping */
-            line-height: 1; /* Reduce spacing between output lines */
+            color: #00ff00; /* Default bright green for output */
+            white-space: pre-wrap; /* Preserve newlines and spaces */
+            line-height: 1.2; /* Consistent line spacing for terminal output */
         }
 
-        /* Styling for quotes in subdued green */
+        /* Styling for subdued green quotes */
         .quote {
-            color: #00aa00; /* Subdued green for the quotes */
+            color: #00aa00; /* Subdued green for quotes */
             white-space: pre-wrap; /* Preserve newlines */
-            line-height: 1; /* Match terminal text */
+            line-height: 1.2; /* Same line height for consistency */
         }
 
         /* Links styling */
         a {
-            color: #3333FF; /* Brighter blue for links */
+            color: #3333FF; /* Bright blue for links */
             text-decoration: none;
         }
 
@@ -72,7 +74,7 @@
         /* Mobile adjustments */
         @media (max-width: 600px) {
             .terminal {
-                font-size: 0.75em; /* Scale down font size for smaller screens */
+                font-size: 0.75em; /* Reduce font size for smaller screens */
             }
             body {
                 padding: 10px; /* Less padding on smaller screens */
@@ -102,6 +104,7 @@
             })
             .catch(error => console.log('Error fetching quotes:', error));
     </script>
+
 </head>
 <body>
 
@@ -123,12 +126,12 @@ Welcome to               __
 
 The personal home of Grady Peterson, Infrastructure Architect.  
 Designing systems for work, building them for fun.
-        </pre>
-        <!-- Random Quote Display -->
-        <p class="quote" id="random-quote"></p>
-        <pre class="output">
 ================================================================================
         </pre>
+
+        <!-- Random Quote Display -->
+        <p class="quote" id="random-quote"></p>
+
         <!-- Email in terminal output style -->
         <pre class="output">
 For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.
