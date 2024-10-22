@@ -113,7 +113,8 @@
                 const quotes = data.quotes;
                 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
                 const formattedQuote = `"${randomQuote.quote}"\n--${randomQuote.author}`; // Display author on new line
-                document.getElementById('random-quote').textContent = formattedQuote;
+                document.getElementById('random-quote-large').textContent = formattedQuote;
+                document.getElementById('random-quote-small').textContent = formattedQuote; // Ensure quote shows up for both layouts
             })
             .catch(error => console.log('Error fetching quotes:', error));
     </script>
@@ -144,7 +145,7 @@ The personal home of Grady Peterson, Infrastructure Architect. Designing systems
             </pre>
 
             <!-- Random Quote Display inside the header section -->
-            <pre class="output" id="random-quote"></pre>
+            <pre class="output" id="random-quote-large"></pre>
 
             <div>================================================================================</div>
         </div>
@@ -156,11 +157,11 @@ The personal home of Grady Peterson, Infrastructure Architect. Designing systems
             <pre class="prompt">Banana Jr. 6000 v3.1 System Architecture: Hyper-Delusional BananOS™</pre>
             <div>============================================================</div>
             <pre class="prompt">
-                     __                       
-  ___ ________ ____/ /_ ______ _______  __ _ 
- / _ `/ __/ _ `/ _  / // /___// __/ _ \/  ' \
- \_, /_/  \_,_/\_,_/\_, /   (_)__/\___/_/_/_/
-/___/              /___/                     
+welcome to          __                        
+  ___ ________ ____/ /_ _____   _______  __ _ 
+ / _ `/ __/ _ `/ _  / // / _ \_/ __/ _ \/  ' \
+ \_, /_/  \_,_/\_,_/\_, / .__(_)__/\___/_/_/_/
+/___/              /___/_/                                        
             </pre>
 
             <pre class="output">
@@ -168,7 +169,7 @@ The personal home of Grady Peterson, Infrastructure Architect. Designing systems
             </pre>
 
             <!-- Random Quote Display inside the header section -->
-            <pre class="output" id="random-quote"></pre>
+            <pre class="output" id="random-quote-small"></pre>
 
             <div>============================================================</div>
         </div>
