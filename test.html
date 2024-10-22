@@ -80,11 +80,18 @@
 
         /* Mobile adjustments */
         @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                font-size: 0.8em; /* Smaller font for small screens */
+            }
             .large-content {
                 display: none; /* Hide large content on mobile */
             }
             .small-content {
                 display: block; /* Show small content on mobile */
+            }
+            .output, .prompt {
+                font-size: 0.9em; /* Scale down font size for small screens */
             }
         }
     </style>
@@ -145,7 +152,7 @@ welcome to          __
   ___ ________ ____/ /_ _____   _______  __ _ 
  / _ `/ __/ _ `/ _  / // / _ \_/ __/ _ \/  ' \
  \_, /_/  \_,_/\_,_/\_, / .__(_)__/\___/_/_/_/
-/___/              /___/_/                                        
+/___/              /___/_/                                       
             </pre>
         </div>
 
