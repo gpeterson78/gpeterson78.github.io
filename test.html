@@ -94,10 +94,10 @@
             display: none;
         }
 
-        /* Mobile adjustments - smaller font size for smaller screens */
+        /* Mobile adjustments - smaller font size and 60 character wrap for smaller screens */
         @media (max-width: 600px) {
-            .terminal {
-                width: 100%; /* Allow the terminal to scale down to fit the screen */
+            .terminal, .prompt, .output {
+                width: 60ch; /* Adjust to wrap at 60 characters */
             }
             body {
                 padding: 10px; /* Less padding on smaller screens */
@@ -163,7 +163,7 @@ Welcome to               __
         <div class="small-logo">
             <div class="rule"></div> <!-- Dynamic rule of = -->
             <pre class="prompt">
-                     __                       
+Welcome to          __                       
   ___ ________ ____/ /_ ______ _______  __ _ 
  / _ `/ __/ _ `/ _  / // /___// __/ _ \/  ' \
  \_, /_/  \_,_/\_,_/\_, /   (_)__/\___/_/_/_/
