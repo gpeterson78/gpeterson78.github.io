@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes"> <!-- Set min and max scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>gradyp.com</title>
     <style>
         /* General body styling */
@@ -13,22 +13,22 @@
             padding: 20px;
             margin: 0;
             display: flex;
-            justify-content: center; /* Center content horizontally */
-            align-items: center; /* Center content vertically */
+            justify-content: flex-start; /* Left align the content */
+            align-items: flex-start; /* Left align the content */
             min-height: 100vh; /* Ensure it takes up full height of viewport */
         }
 
         /* Terminal window styling - 80 character width simulation */
         .terminal {
-            min-width: 640px; /* 80 characters wide at least */
-            max-width: 640px; /* 80 characters wide max */
+            width: 80ch; /* Set the width to 80 characters */
             word-wrap: break-word; /* Break long words to wrap text */
-            white-space: pre-wrap; /* Preserve whitespace */
+            overflow-x: auto; /* Allow horizontal scrolling */
         }
 
         /* Prompt text styling */
         .prompt {
             color: #00ff00; /* Bright terminal green for prompt */
+            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for prompt */
             line-height: 1; /* Reduce spacing between prompt lines */
         }
 
@@ -36,8 +36,10 @@
         .output {
             color: #00aa00; /* Subdued green for regular output text */
             display: block; /* Ensure each line is treated as block for proper line breaks */
-            font-family: "Courier New", Courier, monospace;
+            white-space: pre; /* Prevent text wrapping */
+            font-family: "Courier New", Courier, monospace; /* Ensure terminal font for output */
             line-height: 1; /* Reduce spacing between output lines */
+            overflow-x: auto; /* Allow horizontal scrolling for long lines */
         }
 
         /* Links styling */
@@ -45,7 +47,7 @@
             color: #3333FF; /* Brighter blue for links */
             text-decoration: none;
         }
-
+        
         a:hover {
             text-decoration: underline; /* Underline effect when hovering over links */
         }
@@ -56,29 +58,40 @@
             animation: blink 1s steps(2, start) infinite;
         }
 
+        /* Blinking cursor animation */
         @keyframes blink {
             50% {
                 border-color: transparent;
             }
         }
 
-        /* Horizontal rule style */
+        /* Style for dynamic horizontal rules made of = */
         .rule {
-            white-space: nowrap;
+            display: flex;
+            justify-content: flex-start;
             overflow: hidden;
-            width: 100%;
+            white-space: nowrap;
         }
 
+        /* Equals sign row that dynamically adjusts width */
         .rule::before {
             content: "================================================================================";
-            max-width: 640px; /* Limit to 80 characters */
+            display: inline-block;
+            max-width: 80ch; /* Limit the length to 80 characters */
+            width: 100%; /* Adjust to fit smaller screens */
         }
 
-        /* Mobile adjustments - ensures content scales for smaller devices */
+        /* Mobile adjustments - smaller font size for smaller screens */
         @media (max-width: 640px) {
             .terminal {
                 width: 100%; /* Allow terminal to scale down for small screens */
                 font-size: 0.85em; /* Scale down the font */
+            }
+            body {
+                padding: 10px; /* Less padding on smaller screens */
+            }
+            .output, .prompt {
+                font-size: 0.75em; /* Scale down font size */
             }
         }
     </style>
@@ -103,6 +116,7 @@
             })
             .catch(error => console.log('Error fetching quotes:', error));
     </script>
+
 </head>
 <body>
 
@@ -140,7 +154,7 @@ drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://github.com/gpeterson78
 -rwxr-xr-x 1 root root 7.9K Sep 22 19:54 <a href="https://www.snand.org">snand.org</a>
         </pre>
 
-        <pre class="prompt">root@gradyp.com:~$ <span class="cursor"></span></pre>
+        <pre class="prompt">root@gradyp.com:~$ <span class="cursor"></span></pre> <!-- Fake blinking cursor -->
     </div>
 </body>
 </html>
