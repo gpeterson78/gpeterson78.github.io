@@ -13,31 +13,31 @@
             padding: 20px;
             margin: 0;
             display: flex;
-            justify-content: center; /* Center the content horizontally */
-            align-items: flex-start; /* Left align the content vertically */
-            height: 100vh; /* Full height of the viewport */
-            overflow: hidden; /* Prevent unnecessary scrolling */
+            justify-content: center; /* Center horizontally */
+            align-items: flex-start; /* Align content at the top */
+            height: 100vh; /* Ensure full viewport height */
+            overflow-y: auto; /* Allow vertical scrolling */
         }
 
-        /* Terminal window styling - fixed at 80 characters */
+        /* Terminal window styling - 80 character width simulation */
         .terminal {
-            width: 80ch; /* Set the width to 80 characters */
-            max-width: 100%; /* Allow scaling on smaller screens */
-            white-space: pre-wrap; /* Preserve newlines and prevent text wrapping */
-            overflow-x: auto; /* Allow horizontal scrolling if needed */
+            width: 80ch; /* Set width to 80 characters */
+            max-width: 100%; /* Ensure it scales on smaller screens */
+            white-space: pre-wrap; /* Preserve newlines and spaces while wrapping */
+            overflow-x: auto; /* Allow horizontal scrolling */
             line-height: 1.2; /* Manage the line spacing */
         }
 
         /* Prompt text styling */
         .prompt {
             color: #00ff00; /* Bright terminal green for prompt */
-            line-height: 1; /* Reduce spacing between prompt lines */
+            line-height: 1; /* Tight line spacing */
         }
 
         /* Terminal output styling */
         .output {
             color: #00ff00; /* Default bright green for output */
-            white-space: pre-wrap; /* Preserve newlines and spaces */
+            white-space: pre-wrap; /* Preserve newlines */
             line-height: 1.2; /* Consistent line spacing for terminal output */
         }
 
@@ -74,7 +74,7 @@
         /* Mobile adjustments */
         @media (max-width: 600px) {
             .terminal {
-                font-size: 0.75em; /* Reduce font size for smaller screens */
+                font-size: 0.75em; /* Reduce font size on smaller screens */
             }
             body {
                 padding: 10px; /* Less padding on smaller screens */
