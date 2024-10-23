@@ -48,6 +48,7 @@ Designed and implemented a comprehensive **Hybrid Layered Architecture** to stre
 - Led cross-functional teams responsible for containerization, Terraform automation, and security enhancements through **SD-WAN** and **firewall/WAF management**.
 - Served as the **dedicated troubleshooter**, resolving critical infrastructure issues that others were unable to solve, ensuring minimal downtime and operational efficiency.
 - Lead various **business maturity initiatives**, including improving documentation standards, building high-performing teams, and defining key operational processes to enhance organizational effectiveness.
+
 #### **IT System Engineer Lead**  
 **Infinite Campus | Blaine, MN | 2020 - 2023**  
 Led the modernization of the company's infrastructure through the adoption of **hyperconverged platforms** and **Kubernetes**, significantly improving scalability and reducing overall operating costs.
