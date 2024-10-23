@@ -1,11 +1,38 @@
 # gpeterson78.github.io
-license: MIT this is a work in progress and not meant for anything but Grady's personal use; but feel free if anything is useful.
-address: https://www.gradyp.com
-version: 1.5
-release date: 10-22-2024
-Release notes: 
-version 1.2 now includes mobile support, shrinking font and width for small screens.
-version 1.3 has been cleaned up, links and additional quotes added.
-version 1.4 has embedded youtube videos.  not much there but a few tiny artifacts from my career.
-version 1.5 added tooltips. seems like a decent solution to keep the theme.  also hides them on mobile because tooltips really don't work there.  I so wanted to go to 2.0. - oops to the point where I f'ed up the versioning, going to need an immediate 2.1
-version 2.1 - I'm an idiot.  May as well do some housecleaning.
+
+**License:** MIT  
+**Address:** [https://www.gradyp.com](https://www.gradyp.com)  
+**Version:** 2.2  
+**Release Date:** 10-22-2024  
+
+This is a work in progress and not meant for anything but Grady's personal use. But hey, if anything here is useful, feel free.
+
+---
+
+## Release Notes
+
+### Version 2.2
+
+- **Cleaned up this file.**  If I'm versioning and keeping comments, I'd better get format going now.
+- I'm locked into this stupid versioning system for now so I need to get slower with these changes and versions.  Should slow down as I mature.
+
+### Version 2.1
+
+- I'm an idiot. May as well do some housecleaning.
+
+### Version 1.5
+
+- **Tooltips added.** A neat little addition to keep the theme, with the logic to hide them on mobile (because who needs tooltips on a phone, right?).
+- Honestly, I was ready to jump straight to 2.0 but… I messed up the versioning and need an immediate 2.1.
+
+### Version 1.4
+
+- Embedded YouTube videos. Not a lot, just a few tiny artifacts from my career.
+
+### Version 1.3
+
+- Cleaned up the mess. Added links and a few more quotes.
+
+### Version 1.2
+
+- Mobile support! Font and width shrink for small screens.
