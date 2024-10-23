@@ -1,7 +1,7 @@
 # gpeterson78.github.io
 
 **License:** MIT  
-**Address:** [https://www.gradyp.com](https://www.gradyp.com)  
+**Address:** [www.gradyp.com](https://www.gradyp.com)  
 **Version:** 2.2  
 **Release Date:** 10-22-2024  
 
