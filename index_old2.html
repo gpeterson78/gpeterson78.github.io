@@ -92,13 +92,6 @@
             .output, .prompt {
                 font-size: 0.9em; /* Scale down font size for small screens */
             }
-            .video-container {
-                width: 100%;
-                height: auto;
-            }
-            .tooltip {
-                display: none !important; /* Completely hide the tooltip on small screens */
-            }
         }
 
         /* Video Modal Styles */
@@ -141,28 +134,11 @@
             background: red;
         }
 
-        /* Tooltip styling */
-        .tooltip {
-            display: none;
-            position: absolute;
-            background-color: #333;
-            color: #fff;
-            padding: 8px;
-            border-radius: 5px;
-            z-index: 1000;
-            max-width: 300px;
-            font-size: 0.9em;
-        }
-
-        .tooltip::after {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #333 transparent transparent transparent;
+        @media (max-width: 768px) {
+            .video-container {
+                width: 100%;
+                height: auto;
+            }
         }
     </style>
 
@@ -207,33 +183,11 @@
             if (event.target == modal) {
                 closeModal();
             }
-        }
-        // Check if it's mobile based on screen width
-        const isMobile = window.innerWidth <= 600;
-        // Show tooltip with description if provided
-        function showTooltip(event, link) {
-            const tooltipText = link.getAttribute('data-tooltip');
-            if (!isMobile) {
-                const tooltipText = link.getAttribute('data-tooltip');
-                if (tooltipText) {
-                    const tooltip = document.getElementById('tooltip');
-                    tooltip.innerText = tooltipText;
-                    tooltip.style.display = 'block';
-                    tooltip.style.left = event.pageX + 10 + 'px';
-                    tooltip.style.top = event.pageY + 10 + 'px';
-                }
-            }
-        }
-        // Hide tooltip
-        function hideTooltip() {
-            if (!isMobile) {
-                const tooltip = document.getElementById('tooltip');
-                tooltip.style.display = 'none';
-            }
-        }
+        };
     </script>
 </head>
 <body>
+
     <!-- SSH login simulation -->
     <div class="terminal">
 
@@ -285,7 +239,7 @@ The personal home of Grady Peterson, Infrastructure Architect. Designing systems
         </div>
 
         <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
-        <pre class="prompt">Last login: Tue Oct 22 18:53:14 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
+        <pre class="prompt">Last login: Tue Oct 22 20:24:15 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
 
         <!-- Terminal-style content starts here -->
         <pre class="output">
@@ -293,17 +247,15 @@ root@gradyp.com:~$ ls -lah
 total 153M
 drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://www.gradyp.com">.</a>
 drwx------ 7 root root 4.0K Oct 21 22:53 <a href="https://github.com/gpeterson78/gpeterson78.github.io">..</a>
--rw-r--r-- 1 root root  807 Oct 20 2024  <a href="https://www.gradyp.com/gcp" data-tooltip="my professional resume" onmouseover="showTooltip(event, this)" onmouseout="hideTooltip()">.profile</a>
--rw-r--r-- 1 root root 1.6M Oct 22 2024  <a href="https://www.linkedin.com/in/gradypeterson/" data-tooltip="Obligatory." onmouseover="showTooltip(event, this)" onmouseout="hideTooltip()">linkedin.com</a>
--rwxr-xr-x 1 root root 7.9K Oct 20 2024  <a href="https://www.snand.org"data-tooltip="My personal project site and homelab." onmouseover="showTooltip(event, this)" onmouseout="hideTooltip()">snand.org</a>
--rwxrw-r-- 1 root root 102M Jul 29 2010  <a href="javascript:void(0)" data-tooltip="WhereToLive's great server migration (I planned)." onmouseover="showTooltip(event, this)" onmouseout="hideTooltip()" onclick="openModal('https://www.youtube.com/embed/tFkg8LSMegw')">DataCenter720p.m4v</a>
--rwxrw-r-- 1 root root 255K Aug  5 2007  <a href="javascript:void(0)" data-tooltip="a &quot;server room&quot; from my very first on site consulting gig." onmouseover="showTooltip(event, this)" onmouseout="hideTooltip()"onclick="openModal('https://www.youtube.com/embed/f12KoMSAOpE')">'VID 00001-20100324-0942.3GP'</a>
--rwxrwxrwx 1 root root  49M Mar  5 2013  <a href="javascript:void(0)" data-tooltip="If you ever get the chance to work for a TV station, do it." onmouseover="showTooltip(event, this)" onmouseout="hideTooltip()"onclick="openModal('https://youtube.com/embed/M2_Az4UQP0k')">'Video Mar 04, 3 16 27 PM.mov'</a>
+-rw-r--r-- 1 root root  807 Oct 20 2024  <a href="https://www.gradyp.com/gcp">.profile</a>
+-rw-r--r-- 1 root root 1.6M Oct 22 2024  <a href="https://www.linkedin.com/in/gradypeterson/">linkedin.com</a>
+-rwxr-xr-x 1 root root 7.9K Oct 20 2024  <a href="https://www.snand.org">snand.org</a>
+-rwxrw-r-- 1 root root 102M Jul 29 2010  <a href="javascript:void(0)" onclick="openModal('https://www.youtube.com/embed/tFkg8LSMegw')">DataCenter720p.m4v</a>
+-rwxrw-r-- 1 root root 255K Aug  5 2007  <a href="javascript:void(0)" onclick="openModal('https://www.youtube.com/embed/f12KoMSAOpE')">'VID 00001-20100324-0942.3GP'</a>
+-rwxrwxrwx 1 root root  49M Mar  5 2013  <a href="javascript:void(0)" onclick="openModal('https://youtube.com/embed/M2_Az4UQP0k')">'Video Mar 04, 3 16 27 PM.mov'</a>
         </pre>
         <pre class="prompt">root@gradyp.com:~$ <span class="cursor"></span></pre> <!-- Fake blinking cursor -->
     </div>
-    <!-- Tooltip div -->
-    <div id="tooltip" class="tooltip"></div>
     <!-- Video Modal -->
     <div id="video-modal" class="video-modal">
         <div class="video-container">
