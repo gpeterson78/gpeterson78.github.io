@@ -5,6 +5,7 @@
 **📞** (952) 334-5523  
 **✉** grady@gradyp.com  
 **📍** Maple Grove, MN  
+**🌐** [https://www.gradyp.com](www.gradyp.com)
 
 ---
 
