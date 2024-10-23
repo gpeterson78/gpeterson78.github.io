@@ -9,6 +9,7 @@
 ---
 
 ## **IT Systems Engineering Manager**  
+
 *Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization | Leadership*
 
 ---
@@ -41,6 +42,7 @@ Experienced IT leader with over two decades of expertise in **infrastructure arc
 ### **Career Experience**
 
 #### **Infrastructure Architect**  
+
 **Western National | Edina, MN | 2023 - Present**  
 Designed and implemented a comprehensive **Hybrid Layered Architecture** to streamline infrastructure processes and modernize cloud environments. Spearheaded the organization’s migration to **AWS EKS and Fargate**, driving scalable solutions and improving disaster recovery readiness.
 
@@ -50,6 +52,7 @@ Designed and implemented a comprehensive **Hybrid Layered Architecture** to stre
 - Lead various **business maturity initiatives**, including improving documentation standards, building high-performing teams, and defining key operational processes to enhance organizational effectiveness.
 
 #### **IT System Engineer Lead**  
+
 **Infinite Campus | Blaine, MN | 2020 - 2023**  
 Led the modernization of the company's infrastructure through the adoption of **hyperconverged platforms** and **Kubernetes**, significantly improving scalability and reducing overall operating costs.
 
@@ -58,6 +61,7 @@ Led the modernization of the company's infrastructure through the adoption of **
 - Managed a **$14M infrastructure budget**, optimizing costs while aligning technology investments with business needs.
 
 #### **Senior Technology Engineer**  
+
 **Twin Cities Orthopedics | Golden Valley, MN | 2016 - 2020**  
 Led major infrastructure initiatives, including a **data center migration**, the deployment of a new **hyperconverged infrastructure**, and the design and maintenance of a **VMware Horizon VDI solution**. Additionally, implemented a new **Dell-based virtual backup system** to ensure HIPAA compliance.
 
@@ -67,6 +71,7 @@ Led major infrastructure initiatives, including a **data center migration**, the
 - **Implemented a Dell-based virtual backup system** to ensure **HIPAA compliance** by maintaining a physically offline backup solution.
 
 #### **Senior Engineer**  
+
 **ShopNBC (Evine Live) | Eden Prairie, MN | 2012 - 2016**  
 Served as a senior engineer on critical infrastructure projects, including PCI compliance, remote data center builds, and virtualization. Played a key role in modernizing the company's security infrastructure, as well as designing and deploying solutions for remote and distributed operations.
 
@@ -90,6 +95,7 @@ Served as a senior engineer on critical infrastructure projects, including PCI c
 ---
 
 ### **References**  
+
 Available upon request.
 
 ---
