@@ -13,7 +13,7 @@ This is a work in progress and not meant for anything but Grady's personal use. 
 
 ### Version 2.2
 
-- **Cleaned up this file.**  If I'm versioning and keeping comments, I'd better get format going now.
+- **Cleaned up this file.**  If I'm versioning and keeping comments, I'd better get the format going now.
 - I'm locked into this stupid versioning system for now so I need to get slower with these changes and versions.  Should slow down as I mature.
 
 ### Version 2.1
