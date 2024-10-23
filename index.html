@@ -18,65 +18,54 @@
             min-height: 100vh; /* Ensure it takes up full height of viewport */
             overflow: auto; /* Allow scrolling when necessary */
         }
-
         /* Terminal window styling */
         .terminal {
             overflow: auto; /* Ensure scrolling for the terminal */
         }
-
         /* General prompt and output styles */
         .prompt, .output {
             font-family: "Courier New", Courier, monospace;
             white-space: pre-wrap;
             line-height: 1;
         }
-
         /* Prompt specific styling */
         .prompt {
             color: #00ff00; /* Bright terminal green for prompt */
             font-weight: bold; /* Ensure bold for prompt */
         }
-
         /* Output specific styling */
         .output {
             color: #00aa00; /* Subdued green for output text */
         }
-
         /* Links styling */
         a {
             color: #3333FF; /* Brighter blue for links */
             text-decoration: none;
         }
-
         a:hover {
             text-decoration: underline; /* Underline effect when hovering over links */
         }
-
         /* Terminal-like blinking cursor */
         .cursor {
             border-right: 2px solid #00ff00;
             animation: blink 1s steps(2, start) infinite;
         }
-
         /* Blinking cursor animation */
         @keyframes blink {
             50% {
                 border-color: transparent;
             }
         }
-
         /* Large logo and content (80 characters) */
         .large-content {
             display: block;
             width: 80ch;
         }
-
         /* Small logo and content (60 characters) */
         .small-content {
             display: none;
             width: 60ch;
         }
-
         /* Mobile adjustments */
         @media (max-width: 600px) {
             body {
@@ -100,7 +89,6 @@
                 display: none !important; /* Completely hide the tooltip on small screens */
             }
         }
-
         /* Video Modal Styles */
         .video-modal {
             display: none; /* Initially hidden */
@@ -114,18 +102,15 @@
             align-items: center;
             z-index: 1000; /* Ensure it's on top of other elements */
         }
-
         .video-container {
             position: relative;
             width: 720px;
             height: 405px; /* Aspect ratio for 720p */
         }
-
         .video-modal iframe {
             width: 100%;
             height: 100%;
         }
-
         .close-btn {
             position: absolute;
             top: 10px;
@@ -136,11 +121,9 @@
             cursor: pointer;
             z-index: 1001;
         }
-
         .close-btn:hover {
             background: red;
         }
-
         /* Tooltip styling */
         .tooltip {
             display: none;
@@ -153,7 +136,6 @@
             max-width: 300px;
             font-size: 0.9em;
         }
-
         .tooltip::after {
             content: '';
             position: absolute;
@@ -165,7 +147,6 @@
             border-color: #333 transparent transparent transparent;
         }
     </style>
-
     <!-- JavaScript to fetch and insert user's IP address and random quotes -->
     <script>
         // Fetch the user's IP address using a public API
@@ -176,7 +157,6 @@
                 document.getElementById('user-ip').textContent = data.ip;
             })
             .catch(error => console.log('Error fetching IP:', error));
-
         // Fetch quotes from JSON and display a random one
         fetch('quotes.json')
             .then(response => response.json())
@@ -188,19 +168,16 @@
                 document.getElementById('random-quote-small').textContent = formattedQuote; // Ensure quote shows up for both layouts
             })
             .catch(error => console.log('Error fetching quotes:', error));
-
         // Function to show the video modal
         function openModal(videoUrl) {
             document.getElementById('video-modal').style.display = 'flex';
             document.getElementById('video-frame').src = videoUrl + "?autoplay=1"; // Auto-play video when modal is open
         }
-
         // Function to close the video modal
         function closeModal() {
             document.getElementById('video-modal').style.display = 'none';
             document.getElementById('video-frame').src = ""; // Stop video playback when modal is closed
         }
-
         // Close modal when clicking outside of the video
         window.onclick = function(event) {
             const modal = document.getElementById('video-modal');
@@ -236,7 +213,6 @@
 <body>
     <!-- SSH login simulation -->
     <div class="terminal">
-
         <!-- Large Rule and Logo (80 characters) -->
         <div class="large-content">
             <pre class="prompt">$ ssh root@gradyp.com</pre>
@@ -254,13 +230,10 @@ Welcome to               __
             <pre class="prompt">
 The personal home of Grady Peterson, Infrastructure Architect. Designing systems for work, building them for fun.
             </pre>
-
             <!-- Random Quote Display inside the header section -->
             <pre class="output" id="random-quote-large"></pre>
-
             <div>================================================================================</div>
         </div>
-
         <!-- Small Rule and Logo (60 characters) -->
         <div class="small-content">
             <pre class="prompt">$ ssh root@gradyp.com</pre>
@@ -277,16 +250,12 @@ welcome to          __
             <pre class="prompt">
 The personal home of Grady Peterson, Infrastructure Architect. Designing systems for work, building them for fun.
             </pre>
-
             <!-- Random Quote Display inside the header section -->
             <pre class="output" id="random-quote-small"></pre>
-
             <div>============================================================</div>
         </div>
-
         <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
-        <pre class="prompt">Last login: Tue Oct 22 18:53:14 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
-
+        <pre class="prompt">Last login: Tue Oct 22 20:33:21 2024 from <span id="user-ip">[Fetching IP...]</span></pre>
         <!-- Terminal-style content starts here -->
         <pre class="output">
 root@gradyp.com:~$ ls -lah

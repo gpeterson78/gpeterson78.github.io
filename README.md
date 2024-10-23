@@ -7,4 +7,5 @@ Release notes:
 version 1.2 now includes mobile support, shrinking font and width for small screens.
 version 1.3 has been cleaned up, links and additional quotes added.
 version 1.4 has embedded youtube videos.  not much there but a few tiny artifacts from my career.
-version 1.5 added tooltips. seems like a decent solution to keep the theme.  also hides them on mobile because tooltips really don't work there.  I so wanted to go to 2.0.
+version 1.5 added tooltips. seems like a decent solution to keep the theme.  also hides them on mobile because tooltips really don't work there.  I so wanted to go to 2.0. - oops to the point where I f'ed up the versioning, going to need an immediate 2.1
+version 2.1 - I'm an idiot.  May as well do some housecleaning.
