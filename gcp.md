@@ -9,8 +9,8 @@
 
 ---
 
-## **IT Systems Engineering Manager**  
-*Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization | Leadership*
+## **IT Systems Engineering Leader**  
+*Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization | Team Leadership*
 
 ---
 
