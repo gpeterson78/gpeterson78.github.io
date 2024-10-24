@@ -11,6 +11,10 @@ This is a work in progress and not meant for anything but Grady's personal use. 
 
 ## Release Notes
 
+### Version 2.3
+
+- Minorest of revision but since I farted it up again, I figured I need to learn my lesson and burn a minor version.
+
 ### Version 2.2
 
 - **Cleaned up this file.**  If I'm versioning and keeping comments, I'd better get the format going now.
