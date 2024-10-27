@@ -1,25 +1,20 @@
 # **Grady Peterson**
 
----
-
 **📞** (952) 334-5523  
 **✉** [grady@gradyp.com](mailto:grady@gradyp.com)  
 **🌐** [www.gradyp.com](https://www.gradyp.com)  
 **📍** Maple Grove, MN
 
 ---
-
 ## **IT Systems Engineering Leader**  
 *Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization | Team Leadership*
 
 ---
-
 ### **Professional Summary**
 
 Experienced IT leader with over two decades of expertise in **infrastructure architecture**, **digital transformation**, and **cloud strategy**. Demonstrated success in driving multi-million-dollar projects, achieving over **$2M in cost savings**, and implementing scalable, cloud-based solutions. Adept at leading high-performance teams and delivering strategic, impactful technological innovations that align with business objectives.
 
 ---
-
 ### **Key Achievements**
 
 1. **Led Hyperconverged Infrastructure Initiative**  
@@ -38,7 +33,6 @@ Experienced IT leader with over two decades of expertise in **infrastructure arc
    Presented a **cost-benefit analysis** for replacing the company’s **F5 load balancing infrastructure**, demonstrating that the company's needs could be met with an **open-source HAProxy-based solution**. The proposal was accepted, resulting in significant **cost savings** while maintaining the required functionality and performance.
 
 ---
-
 ### **Career Experience**
 
 #### **Infrastructure Architect**  
@@ -81,7 +75,6 @@ Served as a senior engineer on critical infrastructure projects, including PCI c
 - Collaborated closely with external consultants and internal teams to ensure smooth project execution, seamless system integration, and lasting security improvements.
 
 ---
-
 ### **Technical Competencies**
 
 - **Cloud Platforms**: AWS (EKS, Fargate), Azure, Office365, GitLab  

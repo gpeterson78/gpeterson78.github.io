@@ -1,9 +1,9 @@
 # gpeterson78.github.io
-
-**License:** MIT  
-**Address:** [www.gradyp.com](https://www.gradyp.com)  
+ 
+**Address:** [www.gradyp.com](https://www.gradyp.com)    
 **Version:** 2.2  
 **Release Date:** 10-22-2024  
+**License:** MIT  
 
 This is a work in progress and not meant for anything but Grady's personal use. But hey, if anything here is useful, feel free.
 
@@ -13,7 +13,7 @@ This is a work in progress and not meant for anything but Grady's personal use. 
 
 ### Version 2.3
 
-- Minorest of revision but since I farted it up again, I figured I need to learn my lesson and burn a minor version.
+- Smallest of revisions but since I farted it up again, I figured I need to learn my lesson and burn a minor version.
 
 ### Version 2.2
 
