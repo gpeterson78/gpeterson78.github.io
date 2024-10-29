@@ -83,7 +83,7 @@ Served as a senior engineer on critical infrastructure projects, including PCI c
 - **Automation**: Terraform, Ansible, VMware vRealize Automation  
 - **Security**: Checkpoint WAF/Firewall, VMware DR Strategy  
 - **Virtualization**: VMware ESXi, Horizon  
-- **Linux/Unix**: Ubuntu, CentOS, RedHat
+- **Linux/Unix**: Debian, Ubuntu, CentOS, RedHat, etc.
 
 ---
 
