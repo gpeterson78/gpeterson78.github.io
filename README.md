@@ -2,10 +2,19 @@
  
 **Address:** [www.gradyp.com](https://www.gradyp.com)    
 **Version:** 2.2  
-**Release Date:** 10-22-2024  
+**Release Date:** 10-30-2024  
 **License:** MIT  
 
 This is a work in progress and not meant for anything but Grady's personal use. But hey, if anything here is useful, feel free.
+
+Explanation - This is the personal site/professional profile of Grady Peterson.  This is setup to be as easy to maintain and update as possible so entirely repo driven, using [github.io Pages](https://pages.github.com/) for hosting.  This site is mean to look like an SSH session since that's where I spend so much of my time.  I've also got a rapidly greying beard so I grew up with green screens.
+
+Current list of features:
+- **Quote randomizer** - Quotes can be added to quotes.json with the quote and author and it will display a different quote at random upon each page load.
+- **IP tracker** - a little "easter egg" where it displays your current IP as the last logged in IP.  I just did it because it needed something dynamic, nerdy and funny.  Fits the bill.
+- **Mobile support** - only because I could not get the 'logo' to stop wrapping on mobile so I substitute a smaller logo and font size for the site.
+- **Link easter eggs** - I structured this to look like an output of an "ls -lah" with the 'files' being links.  . and .. needed something meaningful; I think I nailed it.
+- **Owner and dates** - all owner and date info included on the links are meaningful.  I don't minor revision for each update, only for feature changes, but I do try to remember to increment the last login date for each update (seconds refer to version number), and the file dates on each link are meaningful as well.  File "owner" tells you where it's hosted, root in the cloud, gradyp is my homelab (lives in my basement).
 
 ---
 
