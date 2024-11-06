@@ -23,6 +23,7 @@ Current list of features:
 ### Version 2.3
 
 - Smallest of revisions but since I farted it up again, I figured I need to learn my lesson and burn a minor version.
+a. font color change
 
 ### Version 2.2
 
