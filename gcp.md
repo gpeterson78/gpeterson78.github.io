@@ -5,16 +5,16 @@
 **🌐** [www.gradyp.com](https://www.gradyp.com)  
 **📍** Maple Grove, MNz
 
-——
+---
 ## **IT Systems Engineering Leader**  
 *Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization | Team Leadership*
 
-——
+---
 ### **Professional Summary**
 
 Experienced IT leader with over two decades of expertise in **infrastructure architecture**, **team process improvement**, and **technical decision-making**. Proven ability to drive organizational maturity, align technical solutions with business objectives, and foster collaboration across teams. Demonstrated success in leading high-performance teams, implementing scalable, cloud-based solutions, and delivering multi-million-dollar projects with over **$2M in cost savings**. Adept at creating structured processes, improving operational efficiency, and managing strategic initiatives to achieve impactful results.
 
-——
+---
 ### **Key Achievements**
 
 1. **Team Process Improvements at Cambria USA**  
@@ -38,7 +38,7 @@ Experienced IT leader with over two decades of expertise in **infrastructure arc
 7. **Improved Remote Workforce Operations**  
    At Twin Cities Orthopedics, designed and deployed a **VMware Horizon VDI solution** supporting over **1,100 concurrent users**. This ensured secure, efficient access for remote workers while maintaining HIPAA compliance. Successfully led a **data center migration**, using **Site Recovery Manager (SRM)** for seamless failover and failback.
 
-——
+---
 ### **Career Experience**
 
 #### **Systems Engineering Manager**  
@@ -91,7 +91,7 @@ Served as a senior engineer on critical infrastructure projects, including PCI c
 - **Built and administered** a **VMware Horizon VDI platform**, enabling remote, home-based users to securely access PCI-compliant workstations hosted in the company’s data center.
 - Collaborated closely with external consultants and internal teams to ensure smooth project execution, seamless system integration, and lasting security improvements.
 
-——
+---
 ### **Technical Competencies**
 
 - **Cloud Platforms**: AWS (EKS, Fargate), Azure, Office365, GitLab  
@@ -102,7 +102,7 @@ Served as a senior engineer on critical infrastructure projects, including PCI c
 - **Virtualization**: VMware ESXi, Horizon  
 - **Linux/Unix**: Debian, Ubuntu, CentOS, RedHat, etc.
 
-——
+---
 
 ### **References**  
 
