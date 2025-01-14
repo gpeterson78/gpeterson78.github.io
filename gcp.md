@@ -42,7 +42,7 @@ Experienced IT leader with over two decades of expertise in **infrastructure arc
 ### **Career Experience**
 
 #### **Systems Engineering Manager**  
-**Cambria USA | Eden Prairie, MN | 2024 - Present**  
+**Cambria USA | Eden Prairie, MN | Dec. 2024 - Present**  
 
 Managed a team of **4 System Engineers** and **3 Application Administrators**, driving efforts to enhance team collaboration and operational clarity. Focused on fostering structured processes and improving project workflows while navigating organizational constraints.
 
@@ -54,7 +54,7 @@ Managed a team of **4 System Engineers** and **3 Application Administrators**, d
 
 #### **Infrastructure Architect**  
 
-**Western National | Edina, MN | 2023 - Present**  
+**Western National | Edina, MN | 2023 - 2024  
 Designed and implemented a comprehensive **Hybrid Layered Architecture** to streamline infrastructure processes and modernize cloud environments. Spearheaded the organization’s migration to **AWS EKS and Fargate**, driving scalable solutions and improving disaster recovery readiness.
 
 - Advocated for a **team-driven migration strategy**, ensuring more manageable and focused migrations based on application complexity and team readiness.
