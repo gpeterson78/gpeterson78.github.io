@@ -3,7 +3,7 @@
 **📞** (952) 334-5523  
 **✉** [grady@gradyp.com](mailto:grady@gradyp.com)  
 **🌐** [www.gradyp.com](https://www.gradyp.com)  
-**📍** Maple Grove, MNz
+**📍** Maple Grove, MN
 
 ---
 ## **IT Systems Engineering Leader**  
