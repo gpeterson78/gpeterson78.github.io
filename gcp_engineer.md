@@ -7,7 +7,7 @@
 
 ## IT Systems Engineering Leader
 
-Enterprise Architecture /| Digital Transformations /| Cloud Strategy /| Process Optimization /| Team Leadership
+Enterprise Architecture `|` Digital Transformations `|` Cloud Strategy `|` Process Optimization `|` Team Leadership
 
 ---
 
@@ -45,7 +45,7 @@ Led the Microsoft Red Forest project at ShopNBC, securing Active Directory and p
 
 ### **Infrastructure Architect**
 
-**Western National /| Edina, MN /| 2023 - 2024**
+**Western National `|` Edina, MN `|` 2023 - 2024**
 
 - Served as the lead troubleshooter for high-priority infrastructure issues, resolving challenges across Apple MDM, SFTP migrations, and Windows/Linux scripting.
 - Architected a hybrid cloud strategy integrating Docker Swarm on Nutanix with AWS-hosted workloads.
@@ -54,7 +54,7 @@ Led the Microsoft Red Forest project at ShopNBC, securing Active Directory and p
 
 ### **IT System Engineer Lead**
 
-**Infinite Campus /| Blaine, MN /| 2020 - 2023**
+**Infinite Campus `|` Blaine, MN `|` 2020 - 2023**
 
 - Led the deployment and management of 4,000+ Nutanix-based VMs, optimizing compute/storage performance across Windows/Linux workloads.
 - Developed an Ansible-based automation framework to replace legacy VMware vRealize Automation (VRA), enabling efficient provisioning and configuration management.
@@ -63,7 +63,7 @@ Led the Microsoft Red Forest project at ShopNBC, securing Active Directory and p
 
 ### **Senior Technology Engineer**
 
-**Twin Cities Orthopedics /| Golden Valley, MN /| 2016 - 2020**
+**Twin Cities Orthopedics `|` Golden Valley, MN `|` 2016 - 2020**
 
 - Designed, implemented, and optimized a VMware Horizon VDI solution for 1,100+ users, ensuring secure and high-performance remote access.
 - Led a data center migration, utilizing VMware SRM and storage replication to achieve seamless failover and disaster recovery testing.
@@ -72,7 +72,7 @@ Led the Microsoft Red Forest project at ShopNBC, securing Active Directory and p
 
 ### **Senior Engineer**
 
-**ShopNBC (Evine Live) /| Eden Prairie, MN /| 2012 - 2016**
+**ShopNBC (Evine Live) `|` Eden Prairie, MN `|` 2012 - 2016**
 
 - Led the Microsoft Red Forest project, implementing privileged access management and tiered AD security to pass PCI compliance audits.
 - Designed and deployed a remote data center, handling networking, compute, storage, and virtualization architecture from the ground up.
