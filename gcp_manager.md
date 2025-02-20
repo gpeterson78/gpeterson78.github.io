@@ -9,7 +9,7 @@
 
 ### **IT Systems Engineering Leader**
 
-Enterprise Architecture | Cloud Strategy | Digital Transformation | Infrastructure Modernization | Team Leadership
+Enterprise Architecture \| Cloud Strategy \| Digital Transformation \| Infrastructure Modernization \| Team Leadership
 
 ---
 
@@ -34,7 +34,7 @@ Results-driven IT leader with over two decades of experience in infrastructure a
 
 #### **Infrastructure Architect**
 
-**Western National | Edina, MN | 2023 - 2024**
+**Western National \| Edina, MN \| 2023 - 2024**
 
 - Designed a Hybrid Layered Architecture, unifying on-premises and AWS infrastructure.
 - Led cloud adoption strategy, migrating workloads to AWS EKS and Fargate.
@@ -43,7 +43,7 @@ Results-driven IT leader with over two decades of experience in infrastructure a
 
 #### **IT System Engineer Lead**
 
-**Infinite Campus | Blaine, MN | 2020 - 2023**
+**Infinite Campus \| Blaine, MN \| 2020 - 2023**
 
 - Architected and deployed a Nutanix-based hyperconverged infrastructure, supporting 4,000+ VMs.
 - Managed \$14M infrastructure budget, optimizing cost without compromising reliability.
@@ -52,7 +52,7 @@ Results-driven IT leader with over two decades of experience in infrastructure a
 
 #### **Senior Technology Engineer**
 
-**Twin Cities Orthopedics | Golden Valley, MN | 2016 - 2020**
+**Twin Cities Orthopedics \| Golden Valley, MN \| 2016 - 2020**
 
 - Designed a VMware Horizon VDI solution, enabling 1,100+ concurrent remote users with HIPAA compliance.
 - Implemented Dell Data Protection Suite and VMware SRM, establishing a rigorous backup and disaster recovery strategy.
@@ -60,7 +60,7 @@ Results-driven IT leader with over two decades of experience in infrastructure a
 
 #### **Senior Engineer**
 
-**ShopNBC (Evine Live) | Eden Prairie, MN | 2012 - 2016**
+**ShopNBC (Evine Live) \| Eden Prairie, MN \| 2012 - 2016**
 
 - Led the Microsoft Red Forest project, implementing privileged access management and tiered AD security to pass PCI compliance audits.
 - Designed and deployed a remote data center, handling networking, compute, storage, and virtualization architecture from the ground up.
