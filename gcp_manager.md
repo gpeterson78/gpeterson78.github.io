@@ -1,41 +1,94 @@
-# Grady Peterson  
-📞 (952) 334-5523  
-✉ grady@gradyp.com  
-🌐 www.gradyp.com  
-📍 Maple Grove, MN  
+**Grady Peterson**\
+📞 (952) 334-5523\
+✉ [grady@gradyp.com](mailto:grady@gradyp.com)\
+🌐 [www.gradyp.com](http://www.gradyp.com)\
+📍 Maple Grove, MN
 
-## **IT Infrastructure & Engineering Leader**  
-Enterprise Architecture | Digital Transformations | Cloud Strategy | Operational Maturity | Team Leadership  
+---
 
-### **Professional Summary**  
-Results-driven **Infrastructure & Engineering Manager** with over 20 years of experience leading high-performance teams and modernizing enterprise IT environments. Expertise in **hybrid cloud infrastructure, hyperconverged solutions, and process optimization** to drive operational maturity. Adept at aligning **business needs with technology strategy**, managing multi-million-dollar projects, and building structured, scalable processes that foster growth.  
+### **IT Systems Engineering Leader**
 
-### **Key Achievements**  
-- **Built and led engineering teams** at multiple organizations, improving collaboration and documentation practices to drive technical and business success.  
-- **Modernized enterprise infrastructure** at Infinite Campus, leading the transition to a Nutanix-based hyperconverged solution, saving $2M annually.  
-- **Directed strategic cloud migrations**, designing and implementing AWS EKS and Fargate solutions at Western National, improving resilience and scalability.  
-- **Strengthened IT governance and process structure**, implementing SAFe Agile methodologies and structured documentation practices at Cambria.  
-- **Led a critical disaster recovery initiative**, successfully recovering 30M customer files and migrating legacy backups to a resilient, cloud-ready S3-based system.  
-- **Optimized remote workforce operations**, designing and deploying a VMware Horizon VDI platform supporting over 1,100 users in a **secure, HIPAA-compliant** environment.  
+Enterprise Architecture | Cloud Strategy | Digital Transformation | Infrastructure Modernization | Team Leadership
 
-### **Career Experience**  
-#### **Systems Engineering Manager**  
-Cambria USA | Eden Prairie, MN | 2024 - Present  
-- Managed a team of **4 engineers and 3 application administrators**, driving **structured processes, workflow optimization, and team collaboration**.  
-- **Standardized Agile methodologies**, implementing SAFe-based workflows and knowledge-sharing platforms to improve documentation and communication.  
-- Led **ESXi-to-AHV migration** on Nutanix, ensuring seamless transition and operational improvements.  
+---
 
-#### **Infrastructure Architect**  
-Western National | Edina, MN | 2023 - 2024  
-- Designed and implemented a **Hybrid Layered Architecture**, **integrating AWS EKS** with on-prem Nutanix environments.  
-- Led a cross-functional team responsible for **Terraform automation, security enhancements, and cloud migration strategies**.  
+### **Professional Summary**
 
-#### **IT Systems Engineer Lead**  
-Infinite Campus | Blaine, MN | 2020 - 2023  
-- Led the **hyperconverged infrastructure transformation**, consolidating workloads onto Nutanix and saving $2M annually.  
-- Managed enterprise **backup modernization**, implementing Nutanix S3 for a scalable, cloud-ready backup solution.  
+Results-driven IT leader with over two decades of experience in infrastructure architecture, cloud strategy, and team leadership. Adept at driving **operational maturity, digital transformation, and enterprise-wide technology improvements**. Proven expertise in managing complex projects, optimizing infrastructure, and aligning IT solutions with business objectives. Demonstrated success in building high-performing teams, enhancing security and compliance, and **delivering multi-million-dollar cost savings**. Committed to fostering **collaborative, process-driven environments** that enable long-term organizational success.
 
-### **Technical Competencies**  
-**Cloud & Infrastructure:** AWS (EKS, Fargate), Azure, Nutanix, VMware ESXi  
-**Automation & Security:** Terraform, Ansible, VMware vRealize, Checkpoint WAF/Firewall  
-**Leadership & Processes:** ITIL, SAFe Agile, Process Documentation, Disaster Recovery  
+---
+
+### **Key Achievements**
+
+- **Infrastructure Modernization & Cost Optimization:** Led hyperconverged infrastructure consolidation at Infinite Campus, reducing costs by \$2M annually while enhancing scalability and resilience.
+- **Enterprise Cloud Transformation:** Designed and implemented hybrid cloud strategies at Western National, integrating AWS EKS and Fargate for enhanced disaster recovery and scalability.
+- **Disaster Recovery & Business Continuity:** Modernized mission-critical backup infrastructure, implementing S3 storage solutions to mitigate risks and improve long-term data retention.
+- **Security & Compliance Leadership:** Directed a **Red Forest security implementation** at ShopNBC (Evine Live), securing Active Directory and virtualization systems, ensuring PCI compliance.
+- **Remote Workforce Enablement:** Designed and deployed **VMware Horizon VDI** for 1,100+ concurrent users, ensuring secure, HIPAA-compliant remote access at Twin Cities Orthopedics.
+- **Leadership & Organizational Growth:** Scaled IT teams, achieving **100% retention during leadership transitions**, and expanded technical capabilities through training and process refinement.
+
+---
+
+### **Career Experience**
+
+#### **Infrastructure Architect**
+
+**Western National | Edina, MN | 2023 - 2024**
+
+- Designed a **Hybrid Layered Architecture**, unifying on-premises and AWS infrastructure.
+- Led cloud adoption strategy, migrating workloads to AWS EKS and Fargate.
+- Directed SD-WAN implementation, ensuring secure networking between AWS and Nutanix-hosted workloads.
+- Advocated for Nutanix NC2 as a scalable **cloud onramp and backup expansion solution**.
+
+#### **IT System Engineer Lead**
+
+**Infinite Campus | Blaine, MN | 2020 - 2023**
+
+- **Architected and deployed a Nutanix-based hyperconverged infrastructure**, supporting 4,000+ VMs.
+- Managed \$14M infrastructure budget, optimizing cost without compromising reliability.
+- Led Kubernetes adoption, deploying the first company-wide container orchestration solution.
+- Migrated **customer backups to Nutanix S3**, ensuring long-term resiliency and cloud-ready scalability.
+
+#### **Senior Technology Engineer**
+
+**Twin Cities Orthopedics | Golden Valley, MN | 2016 - 2020**
+
+- Designed a **VMware Horizon VDI solution**, enabling 1,100+ concurrent remote users with HIPAA compliance.
+- Implemented **Dell Data Protection Suite** and **VMware SRM**, establishing a rigorous backup and disaster recovery strategy.
+- Led data center migration, ensuring **zero downtime failover** between primary and DR sites.
+
+#### **Senior Engineer**
+
+**ShopNBC (Evine Live) | Eden Prairie, MN | 2012 - 2016**
+
+- Led the **Microsoft Red Forest** project, implementing **privileged access management** and **tiered AD security** to **pass PCI compliance audits**.
+- Designed and deployed a **remote data center**, handling **networking, compute, storage, and virtualization architecture** from the ground up.
+- Managed a **200+ user VMware Horizon deployment**, ensuring **secure access for remote call center employees**.
+
+---
+
+### **Technical Competencies**
+
+- **Cloud & Infrastructure:** AWS (EKS, Fargate), Azure, Office365, Nutanix (AHV, NC2)
+- **Virtualization & Storage:** VMware ESXi, Horizon, Nutanix, Cisco UCS, Dell EMC VxRail
+- **Security & Compliance:** Zero Trust, Red Forest, Checkpoint WAF/Firewall, VMware DR Strategy, PCI/HIPAA
+- **Automation & DevOps:** Terraform, Ansible, Kubernetes, GitLab CI/CD
+- **Networking & SD-WAN:** Cisco, Meraki, Secure SD-WAN, Cloud-Native Networking
+- **Disaster Recovery & Backups:** Nutanix S3, Dell Data Protection Suite, VMware SRM
+- **Operating Systems:** Windows Server, Linux (Debian, Ubuntu, CentOS, RedHat)
+
+---
+
+### **Leadership & Business Impact**
+
+- **Strategic Decision-Making:** Proven ability to **bridge the gap between business objectives and technical execution**, aligning IT roadmaps with enterprise growth.
+- **Operational Maturity:** Passionate about **process-driven methodologies**, advocating for documentation, automation, and efficiency improvements.
+- **Collaborative Leadership:** Strong mentor, fostering an environment of professional growth and cross-team synergy.
+- **Technology Evangelism:** Consistently researching and implementing **emerging solutions to drive innovation** and optimize IT operations.
+
+---
+
+### **Professional References**
+
+Available upon request.
+
