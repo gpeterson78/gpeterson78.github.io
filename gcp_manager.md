@@ -1,7 +1,8 @@
-**Grady Peterson**\
-📞 (952) 334-5523\
-✉ [grady@gradyp.com](mailto:grady@gradyp.com)\
-🌐 [www.gradyp.com](http://www.gradyp.com)\
+# Grady Peterson
+
+📞 (952) 334-5523  
+✉ [grady@gradyp.com](mailto:grady@gradyp.com)  
+🌐 [www.gradyp.com](http://www.gradyp.com)  
 📍 Maple Grove, MN
 
 ---
