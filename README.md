@@ -1,8 +1,8 @@
 # gpeterson78.github.io
  
 **Address:** [www.gradyp.com](https://www.gradyp.com)    
-**Version:** 2.2  
-**Release Date:** 10-30-2024  
+**Version:** 2.4  
+**Release Date:** 02-20-2025  
 **License:** MIT  
 
 This is a work in progress and not meant for anything but Grady's personal use. But hey, if anything here is useful, feel free.
@@ -19,6 +19,10 @@ Current list of features:
 ---
 
 ## Release Notes
+
+### Version 2.4
+
+- Been a while, but on the hunt for my next opportunity so time for a little tidying up.
 
 ### Version 2.3
 
