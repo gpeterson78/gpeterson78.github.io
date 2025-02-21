@@ -40,7 +40,7 @@ Senior Infrastructure Engineer with expertise in cloud, virtualization, security
 - Developed an Ansible-based automation framework to replace legacy VMware vRealize Automation (VRA), enabling efficient provisioning and configuration management.
 - Spearheaded the Hadoop-to-S3 backup migration, enabling cost-effective, cloud-scalable storage for long-term customer data retention.
 
-**Senior Technology Engineer \|** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **\| Aug. 2016 – Feb. 2020**
+**Senior Technology Engineer \|** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **\| August 2016 – February 2020**
 - Led a data center migration, utilizing VMware SRM and storage replication to achieve seamless failover and disaster recovery testing.
 - Designed, implemented, and optimized a VMware Horizon VDI solution for 1,100+ users, ensuring secure and high-performance remote access.
 - Implemented a Dell-based data protection system, ensuring compliance with HIPAA security and backup regulations.
