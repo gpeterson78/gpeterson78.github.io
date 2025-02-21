@@ -14,7 +14,7 @@ Enterprise Architecture \| Digital Transformations \| Cloud Strategy \| Process 
 Senior Infrastructure Engineer with expertise in cloud, virtualization, security, and automation. Specializes in high-availability systems, hyperconverged environments, and large-scale migrations. Proven ability to design resilient, secure, and cost-effective infrastructure solutions that align with business goals.
 
 ---
-## Key Achievements
+### Key Achievements
 
 - **Infrastructure Modernization** – Led the transition to Nutanix, consolidating compute and storage into a scalable, highly available, region-separated cluster. Migrated from VMware ESXi to AHV, improving performance and disaster recovery.
 - **Cloud & Hybrid Architecture** – Designed a secure hybrid infrastructure integrating AWS EKS, Fargate, with traditional on-prem infrastructure via SD-WAN, following zero-trust security principals for seamless workload portability.
