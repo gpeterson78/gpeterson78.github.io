@@ -6,7 +6,7 @@
 
 ## IT Systems Engineering Leader
 
-Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization
+Enterprise Architecture \| Digital Transformations \| Cloud Strategy \| Process Optimization
 
 ---
 ## Professional Summary
@@ -26,7 +26,7 @@ Senior Infrastructure Engineer with expertise in cloud, virtualization, security
 ---
 ## Career Experience
 
-**Infrastructure Architect |** [**Western National**](https://wnins.com/) **| April 2023 – November 2024**
+**Infrastructure Architect \|** [**Western National**](https://wnins.com/) **\| April 2023 – November 2024**
 
 - Designed and implemented a Hybrid Layered Architecture, modernizing cloud infrastructure and streamlining operations.
 - Led the migration to AWS EKS and Fargate, enhancing scalability, security, and disaster recovery.
@@ -35,18 +35,18 @@ Senior Infrastructure Engineer with expertise in cloud, virtualization, security
 - Drove business maturity initiatives by improving documentation standards, strengthening team performance, and defining key operational processes.
 - Architected and led the implementation of a streamlined document generation solution, reducing processing time from several hours to minutes.
 
-**IT System Engineer Lead |** [**Infinite Campus**](https://www.infinitecampus.com/) **| February 2020 – April 2023**
+**IT System Engineer Lead \|** [**Infinite Campus**](https://www.infinitecampus.com/) **\| February 2020 – April 2023**
 - Led the deployment and management of 4,000+ Nutanix-based VMs, optimizing compute/storage performance across Windows/Linux workloads.
 - Developed an Ansible-based automation framework to replace legacy VMware vRealize Automation (VRA), enabling efficient provisioning and configuration management.
 - Spearheaded the Hadoop-to-S3 backup migration, enabling cost-effective, cloud-scalable storage for long-term customer data retention.
 
-**Senior Technology Engineer |** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **| Aug. 2016 – Feb. 2020**
+**Senior Technology Engineer \|** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **\| Aug. 2016 – Feb. 2020**
 - Led a data center migration, utilizing VMware SRM and storage replication to achieve seamless failover and disaster recovery testing.
 - Designed, implemented, and optimized a VMware Horizon VDI solution for 1,100+ users, ensuring secure and high-performance remote access.
 - Implemented a Dell-based data protection system, ensuring compliance with HIPAA security and backup regulations.
 - Worked with VMware consultants to validate infrastructure performance and successfully lobbied for compute and storage upgrades based on workload requirements.
 
-**Senior Engineer |** [**ShopNBC (Evine Live)**](https://www.shophq.com/) **| March 2012 – August 2016**
+**Senior Engineer \|** [**ShopNBC (Evine Live)**](https://www.shophq.com/) **\| March 2012 – August 2016**
 - Designed and deployed a remote data center, handling networking, compute, storage, and virtualization architecture from the ground up.
 - Key engineer for Enhanced Security Admin Environment project, implementing privileged access management and tiered AD security to pass PCI compliance audits.
 - Managed a 200+ user VMware Horizon deployment, ensuring secure access for remote call center employees.
