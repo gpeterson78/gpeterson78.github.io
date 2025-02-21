@@ -1,109 +1,62 @@
-# **Grady Peterson**
+# Grady Peterson
+**📞** (952)-334-5523
+**✉**  [grady@gradyp.com](mailto:grady@gradyp.com)
+**🌐** [www.gradyp.com](https://www.gradyp.com/)
+**🔗** [Linkedin.com](https://www.linkedin.com/in/gradypeterson/)
 
-**📞** (952) 334-5523  
-**✉** [grady@gradyp.com](mailto:grady@gradyp.com)  
-**🌐** [www.gradyp.com](https://www.gradyp.com)  
-**📍** Maple Grove, MN
+## IT Systems Engineering Leader
 
----
-## **IT Systems Engineering Leader**  
-*Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization | Team Leadership*
-
----
-### **Professional Summary**
-
-Experienced IT leader with over two decades of expertise in **infrastructure architecture**, **team process improvement**, and **technical decision-making**. Proven ability to drive organizational maturity, align technical solutions with business objectives, and foster collaboration across teams. Demonstrated success in leading high-performance teams, implementing scalable, cloud-based solutions, and delivering multi-million-dollar projects with over **$2M in cost savings**. Adept at creating structured processes, improving operational efficiency, and managing strategic initiatives to achieve impactful results.
+Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization
 
 ---
-### **Key Achievements**
+## Professional Summary
 
-1. **Team Process Improvements at Cambria USA**  
-   As **Systems Engineering Manager**, implemented structured **requirements gathering** practices to translate business needs into actionable technical solutions. Enhanced **team collaboration** by fostering transparent communication through shared Confluence spaces and documenting SAFe-based Agile methodologies, aligning processes across teams. Advocated for organizational maturity by proposing strategic initiatives, despite operating in a challenging environment.
-
-2. **Hyperconverged Infrastructure Leadership**  
-   Re-architected infrastructure at Infinite Campus, consolidating **storage, compute, and licensing** into a streamlined hyperconverged platform. This initiative delivered **$2M in annual savings** and positioned the company as **Nutanix’s largest Midwestern customer**, showcasing a strategic approach to cost optimization and scalability.
-
-3. **Strategic Cloud Migration and Unified Architecture**  
-   Directed the migration to **AWS EKS and Fargate** at Western National, crafting a unified architecture for **on-prem and cloud environments**. Established clear **roles and responsibilities** for network and platform teams, ensuring seamless operations and enhancing team collaboration. This strategic initiative enabled the organization to scale effectively and improve disaster recovery readiness.
-
-4. **Team Leadership During Organizational Transition**  
-   Took on a **leadership role** at Infinite Campus during a critical period, stabilizing team dynamics after management turnover. Introduced a **kanban-style workflow**, fostered cross-department communication, and identified infrastructure gaps. Achieved **100% team retention** and expanded the team by **30%**, while actively contributing as the **infrastructure advisor** on the architecture committee.
-
-5. **Driving Strategic Cost Optimization**  
-   Presented a detailed **cost-benefit analysis** for replacing legacy load-balancing infrastructure with an **open-source HAProxy-based solution**, delivering substantial cost savings without compromising performance or reliability. This decision reinforced the value of thoughtful technical evaluation and strategic financial planning.
-
-6. **Critical System Modernization and Risk Mitigation**  
-   Led the modernization of an **antiquated backup system** at Infinite Campus, addressing a critical **single point of failure**. Recovered **30 million files** despite the absence of vendor support, and transitioned the system to a **modern S3-based platform**, reducing risk and preparing the organization for future **cloud adoption**.
-
-7. **Improved Remote Workforce Operations**  
-   At Twin Cities Orthopedics, designed and deployed a **VMware Horizon VDI solution** supporting over **1,100 concurrent users**. This ensured secure, efficient access for remote workers while maintaining HIPAA compliance. Successfully led a **data center migration**, using **Site Recovery Manager (SRM)** for seamless failover and failback.
+Senior Infrastructure Engineer with expertise in cloud, virtualization, security, and automation. Specializes in high-availability systems, hyperconverged environments, and large-scale migrations. Proven ability to design resilient, secure, and cost-effective infrastructure solutions that align with business goals.
 
 ---
-### **Career Experience**
+ ### **Key Achievements**
 
-#### **Systems Engineering Manager**  
-**Cambria USA | Eden Prairie, MN | Dec. 2024 - Present**  
-
-Managed a team of **4 System Engineers** and **3 Application Administrators**, driving efforts to enhance team collaboration and operational clarity. Focused on fostering structured processes and improving project workflows while navigating organizational constraints.
-
-- **Documented Agile Practices**: Identified and formalized existing SAFe-based Agile methodologies, ensuring consistency and alignment across the team. Developed clear documentation using **Confluence**, with team collaboration and approval to drive shared understanding.  
-- **Enhanced Requirements Gathering**: Introduced a robust process to translate **business requirements into technical deliverables**, clarifying project goals and increasing stakeholder confidence.  
-- **Established Open Communication Practices**: Encouraged working transparently within shared knowledge spaces to improve collaboration and reduce siloed efforts.  
-- **Collaborated Across Teams**: Coordinated with cross-functional teams, including Data and Plant Automation, to schedule ad-hoc tasks in a complex environment without maintenance windows.  
-- **Advocated for Structured Management**: Proposed initiatives for team-building, documentation, and project management improvements, despite facing organizational resistance.
-
-#### **Infrastructure Architect**  
-
-**Western National | Edina, MN | 2023 - 2024  
-Designed and implemented a comprehensive **Hybrid Layered Architecture** to streamline infrastructure processes and modernize cloud environments. Spearheaded the organization’s migration to **AWS EKS and Fargate**, driving scalable solutions and improving disaster recovery readiness.
-
-- Advocated for a **team-driven migration strategy**, ensuring more manageable and focused migrations based on application complexity and team readiness.
-- Led cross-functional teams responsible for containerization, Terraform automation, and security enhancements through **SD-WAN** and **firewall/WAF management**.
-- Served as the **dedicated troubleshooter**, resolving critical infrastructure issues that others were unable to solve, ensuring minimal downtime and operational efficiency.
-- Lead various **business maturity initiatives**, including improving documentation standards, building high-performing teams, and defining key operational processes to enhance organizational effectiveness.
-
-#### **IT System Engineer Lead**  
-
-**Infinite Campus | Blaine, MN | 2020 - 2023**  
-Led the modernization of the company’s infrastructure through the adoption of **hyperconverged platforms** and **Kubernetes**, significantly improving scalability and reducing overall operating costs.
-
-- Designed and deployed the company’s first **Kubernetes cluster**, facilitating better orchestration and scalability of enterprise applications.
-- Led the recovery of a **Hadoop cluster** after a critical failure, recovering **30 million customer files** and spearheading the migration to a more efficient **S3 platform**.
-- Managed a **$14M infrastructure budget**, optimizing costs while aligning technology investments with business needs.
-
-#### **Senior Technology Engineer**  
-
-**Twin Cities Orthopedics | Golden Valley, MN | 2016 - 2020**  
-Led major infrastructure initiatives, including a **data center migration**, the deployment of a new **hyperconverged infrastructure**, and the design and maintenance of a **VMware Horizon VDI solution**. Additionally, implemented a new **Dell-based virtual backup system** to ensure HIPAA compliance.
-
-- **Designed, deployed, and maintained** a comprehensive **VDI solution** for over **1100 concurrent remote users**, providing secure and efficient access.
-- **Led the data center migration** using **Site Recovery Manager (SRM)** for controlled failover to a DR site, successfully completing the migration and failback to the new colocated facility.
-- Drove the decision to implement a **VxRail hyperconverged infrastructure**, presenting a **good, better, best** analysis. Despite favoring **Nutanix**, the pre-existing relationship with Dell led to the selection of VxRail.
-- **Implemented a Dell-based virtual backup system** to ensure **HIPAA compliance** by maintaining a physically offline backup solution.
-
-#### **Senior Engineer**  
-
-**ShopNBC (Evine Live) | Eden Prairie, MN | 2012 - 2016**  
-Served as a senior engineer on critical infrastructure projects, including PCI compliance, remote data center builds, and virtualization. Played a key role in modernizing the company’s security infrastructure, as well as designing and deploying solutions for remote and distributed operations.
-
-- **Led a successful PCI compliance project**, implementing a **Red Forest** (now known as **Microsoft Enhanced Security Administrative Environment**), securing **Active Directory** and virtualization systems. The company passed its security audit with **exemplary results**, significantly improving its overall security posture.
-- **Designed, installed, and administered** a **Cisco blade system** with a **Nutanix backend** to support a replicated data center at the company’s new distribution center. Led vendor negotiations, system design, and deployment, establishing a critical new infrastructure.
-- **Built and administered** a **VMware Horizon VDI platform**, enabling remote, home-based users to securely access PCI-compliant workstations hosted in the company’s data center.
-- Collaborated closely with external consultants and internal teams to ensure smooth project execution, seamless system integration, and lasting security improvements.
+- **Infrastructure Modernization** – Led the transition to Nutanix, consolidating compute and storage into a scalable, highly available, region-separated cluster. Migrated from VMware ESXi to AHV, improving performance and disaster recovery.
+- **Cloud & Hybrid Architecture** – Designed a secure hybrid infrastructure integrating AWS EKS, Fargate, with traditional on-prem infrastructure via SD-WAN, following zero-trust security principals for seamless workload portability.
+- **Mergers & Acquisitions** – Played a key role in IT strategy during organizational restructuring and acquisitions. Led the datacenter migration from on-premise to a colocated facility to support business expansion.
+- **Backup & Disaster Recovery** – Identified and mitigated a critical failure in legacy backups. Led the design and execution of a scalable S3-based solution with automated disaster recovery, transforming a near-catastrophe into a resilient, highly available system.
+- **Remote Workforce & Virtualization** – Engineered multiple VDI platforms, including one for 1,100+ concurrent users, optimizing performance and security for remote access.
+- **Security & Compliance** – Led Active Directory hardening and PCI compliance initiatives. Successfully enforced MFA, and least privilege policies, achieving extremely successful results and significantly reducing security risks.
 
 ---
-### **Technical Competencies**
+## Career Experience
 
-- **Cloud Platforms**: AWS (EKS, Fargate), Azure, Office365, GitLab  
-- **Containerization**: Docker, Kubernetes, Rancher, TKGI  
-- **Infrastructure**: Cisco UCS, Dell EMC VxRail, Nutanix  
-- **Automation**: Terraform, Ansible, VMware vRealize Automation  
-- **Security**: Checkpoint WAF/Firewall, VMware DR Strategy  
-- **Virtualization**: VMware ESXi, Horizon  
-- **Linux/Unix**: Debian, Ubuntu, CentOS, RedHat, etc.
+**Infrastructure Architect |** [**Western National**](https://wnins.com/) **| April 2023 – November 2024**
+
+- Designed and implemented a Hybrid Layered Architecture, modernizing cloud infrastructure and streamlining operations.
+- Led the migration to AWS EKS and Fargate, enhancing scalability, security, and disaster recovery.
+- Developed a team-driven migration strategy, aligning cloud adoption with application complexity and team readiness.
+- Led cross-functional teams focused on containerization, integration and security improvements, including SD-WAN and firewall/WAF management.
+- Drove business maturity initiatives by improving documentation standards, strengthening team performance, and defining key operational processes.
+- Architected and led the implementation of a streamlined document generation solution, reducing processing time from several hours to minutes.
+
+**IT System Engineer Lead |** [**Infinite Campus**](https://www.infinitecampus.com/) **| February 2020 – April 2023**
+- Led the deployment and management of 4,000+ Nutanix-based VMs, optimizing compute/storage performance across Windows/Linux workloads.
+- Developed an Ansible-based automation framework to replace legacy VMware vRealize Automation (VRA), enabling efficient provisioning and configuration management.
+- Spearheaded the Hadoop-to-S3 backup migration, enabling cost-effective, cloud-scalable storage for long-term customer data retention.
+
+**Senior Technology Engineer |** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **| Aug. 2016 – Feb. 2020**
+- Led a data center migration, utilizing VMware SRM and storage replication to achieve seamless failover and disaster recovery testing.
+- Designed, implemented, and optimized a VMware Horizon VDI solution for 1,100+ users, ensuring secure and high-performance remote access.
+- Implemented a Dell-based data protection system, ensuring compliance with HIPAA security and backup regulations.
+- Worked with VMware consultants to validate infrastructure performance and successfully lobbied for compute and storage upgrades based on workload requirements.
+
+**Senior Engineer |** [**ShopNBC (Evine Live)**](https://www.shophq.com/) **| March 2012 – August 2016**
+- Designed and deployed a remote data center, handling networking, compute, storage, and virtualization architecture from the ground up.
+- Key engineer for Enhanced Security Admin Environment project, implementing privileged access management and tiered AD security to pass PCI compliance audits.
+- Managed a 200+ user VMware Horizon deployment, ensuring secure access for remote call center employees.
 
 ---
+## Technical Competencies
 
-### **References**  
-
-Available upon request.
+- Cloud & Virtualization: AWS (EKS, Fargate), VMware (ESXi, Horizon, NSX), Nutanix
+- Infrastructure & Automation: Ansible, Docker, Kubernetes, GitLab CI/CD
+- Compliance & Security: HIPAA, PCI, IAM/MFA, Least Privilege Access Controls
+- Networking & Security: Cisco Networking (Routing, Switching, VPN), Checkpoint WAF/Firewall, IAM/MFA, Zero Trust
+- Storage & Backup: Dell EMC, Nutanix Files & S3, VMware SRM, Disaster Recovery Planning
+- Operating Systems: Windows Server, Linux (Debian, Ubuntu, CentOS, RedHat)
