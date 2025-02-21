@@ -2,7 +2,7 @@
 **📞** (952)-334-5523  
 **✉**  [grady@gradyp.com](mailto:grady@gradyp.com)  
 **🌐** [www.gradyp.com](https://www.gradyp.com/)  
-**🔗** [Linkedin.com](https://www.linkedin.com/in/gradypeterson/)  
+**🔗** [Linkedin](https://www.linkedin.com/in/gradypeterson/)  
 
 ## IT Systems Engineering Leader
 
