@@ -29,8 +29,8 @@ Infrastructure Architect / Systems Strategist with expertise in cloud, virtualiz
 **Senior Infrastructure Engineer \|** [**Howden RE**](https://www.HowdenRE.com/) **\| April 2024 – Present**
 _Global specialty reinsurance provider | Member of Global Infrastructure Team_
 
-- Serve as the **sole U.S. infrastructure lead**, responsible for end-to-end management of all North American datacenter and cloud systems while collaborating with global peers in a 24×7 follow-the-sun operations model.
-- Oversee **four Nutanix clusters (34 nodes total)** and four Hyper-V clusters (34 nodes) across multi-site environments (RDU, TN, UK GS2, and HCP), supporting thousands of on-prem and Azure workloads.
+- Serve as the sole U.S. infrastructure lead, responsible for end-to-end management of all North American datacenter and cloud systems while collaborating with global peers in a 24×7 follow-the-sun operations model.
+- Oversee four Nutanix clusters (34 nodes total) and four Hyper-V clusters (34 nodes) across multi-site environments (RDU, TN, UK GS2, and HCP), supporting thousands of on-prem and Azure workloads.
 - Manage Active Directory integration between legacy and global domains; design and implement migration strategy, one-way trust relationships, and phased adoption of Group IT standards.
 - Lead infrastructure modernization through Commvault cloud backups with Wasabi, implementation of Tanium patch management, and initial rollout of Nutanix CALM (Self-Service) automation.
 - Directly own and maintain F5 load balancers, coordinate with global network teams for cross-region connectivity, and contribute to network documentation and architecture diagrams.
