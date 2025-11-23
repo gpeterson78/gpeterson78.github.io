@@ -48,11 +48,11 @@ _Global specialty reinsurance provider | Member of Global Infrastructure Team_
 - Architected and led the implementation of a streamlined document generation solution, reducing processing time from several hours to minutes.
 
 **IT System Engineer Lead / Acting Infrastructure Manager \|** [**Infinite Campus**](https://www.infinitecampus.com/) **\| February 2020 – April 2023**
-	•	Drove the strategic migration from VMware/Cisco blades + SAN to a Nutanix hyperconverged platform supporting ~4,000 VMs across two active/active datacenters. Reduced operational complexity, improved resilience, and consolidated multi-vendor spend into a flexible, expandable solution.
-	•	Architected and deployed Nutanix Objects as the company’s first internal S3 system, later evolving into a petabyte-scale, multi-region platform for backup and customer data retention.
-	•	Operated as interim Infrastructure Manager for nine months, managing an 8-person team, coordinating roadmaps, leading incident response, and building hiring plans aligned to long-term capability needs.
-	•	Influenced enterprise-wide technical standards on the Architecture Board, shaping policy for cloud workloads, DR posture, on-prem hardware lifecycles, and infrastructure service models.
-	•	Successfully recovered critical customer backup systems after a catastrophic hardware event, leading a multi-week restoration effort and building the business case that finally secured the transition to S3-based storage.
+- Drove the strategic migration from VMware/Cisco blades + SAN to a Nutanix hyperconverged platform supporting ~4,000 VMs across two active/active datacenters. Reduced operational complexity, improved resilience, and consolidated multi-vendor spend into a flexible, expandable solution.
+- Architected and deployed Nutanix Objects as the company’s first internal S3 system, later evolving into a petabyte-scale, multi-region platform for backup and customer data retention.
+- Operated as interim Infrastructure Manager for nine months, managing an 8-person team, coordinating roadmaps, leading incident response, and building hiring plans aligned to long-term capability needs.
+- Influenced enterprise-wide technical standards on the Architecture Board, shaping policy for cloud workloads, DR posture, on-prem hardware lifecycles, and infrastructure service models.
+- Successfully recovered critical customer backup systems after a catastrophic hardware event, leading a multi-week restoration effort and building the business case that finally secured the transition to S3-based storage.
 
 **Senior Technology Engineer \|** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **\| August 2016 – February 2020**
 - Led a data center migration, utilizing VMware SRM and storage replication to achieve seamless failover and disaster recovery testing.
