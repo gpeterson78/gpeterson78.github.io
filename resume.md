@@ -27,7 +27,7 @@ Infrastructure Architect / Systems Strategist with expertise in cloud, virtualiz
 ## Career Experience
 
 **Senior Infrastructure Engineer \|** [**Howden RE**](https://howdenre.com) **\| April 2024 – Present**  
-_Global reinsurance provider \| Global Infrastructure Engineering_
+_Global reinsurance provider_ \| _Global Infrastructure Engineering_
 
 - Serve as the senior U.S. infrastructure engineer, owning core platform stability, modernization, and integration efforts while collaborating closely with global teams in a follow-the-sun model.
 - Lead the technical integration of TigerRisk into Howden’s global infrastructure, including domain consolidation, standards alignment, and migration planning across cloud and on‑prem systems.
