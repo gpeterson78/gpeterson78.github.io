@@ -28,7 +28,7 @@ Infrastructure Architect / Systems Strategist with expertise in cloud, virtualiz
 ## Career Experience
 
 **Senior Infrastructure Engineer \|** [**Howden RE**](https://howdenre.com) **\| April 2024 – Present**  
-_Global reinsurance provider | Global Infrastructure Engineering_
+_Global reinsurance provider \| Global Infrastructure Engineering_
 
 - Serve as the senior U.S. infrastructure engineer, owning core platform stability, modernization, and integration efforts while collaborating closely with global teams in a follow-the-sun model.
 - Lead the technical integration of TigerRisk into Howden’s global infrastructure, including domain consolidation, standards alignment, and migration planning across cloud and on‑prem systems.
@@ -37,7 +37,7 @@ _Global reinsurance provider | Global Infrastructure Engineering_
 - Exercise broad autonomy in U.S. infrastructure decisions within global change control, ensuring reliability, security, and alignment with enterprise governance.
 
 **Infrastructure Architect \|** [**Western National**](https://wnins.com/) **\| April 2023 – November 2024**
-_Property & casualty insurance carrier | Infrastructure & Cloud Architecture_
+_Property & casualty insurance carrier \| Infrastructure & Cloud Architecture_
 
 - Designed and implemented a Hybrid Layered Architecture, modernizing cloud infrastructure and streamlining operations.
 - Led the migration to AWS EKS and Fargate, enhancing scalability, security, and disaster recovery.
@@ -47,7 +47,7 @@ _Property & casualty insurance carrier | Infrastructure & Cloud Architecture_
 - Architected and led the implementation of a streamlined document generation solution, reducing processing time from several hours to minutes.
 
 **IT System Engineer Lead / Acting Infrastructure Manager \|** [**Infinite Campus**](https://www.infinitecampus.com/) **\| February 2020 – April 2023**
-_National K–12 EdTech provider | Infrastructure Engineering & Operations Leadership_
+_National K–12 EdTech provider \| Infrastructure Engineering & Operations Leadership_
 
 - Drove the strategic migration from VMware/Cisco blades + SAN to a Nutanix hyperconverged platform supporting ~4,000 VMs across two active/active datacenters. Reduced operational complexity, improved resilience, and consolidated multi-vendor spend into a flexible, expandable solution.
 - Architected and deployed Nutanix Objects as the company’s first internal S3 system, later evolving into a petabyte-scale, multi-region platform for backup and customer data retention.
@@ -56,7 +56,7 @@ _National K–12 EdTech provider | Infrastructure Engineering & Operations Leade
 - Successfully recovered critical customer backup systems after a catastrophic hardware event, leading a multi-week restoration effort and building the business case that finally secured the transition to S3-based storage.
 
 **Senior Technology Engineer \|** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **\| August 2016 – February 2020**
-_Orthopedic healthcare provider | Systems & Virtualization Engineering_
+_Orthopedic healthcare provider \| Systems & Virtualization Engineering_
 
 - Led a data center migration, utilizing VMware SRM and storage replication to achieve seamless failover and disaster recovery testing.
 - Designed, implemented, and optimized a VMware Horizon VDI solution for 1,100+ users, ensuring secure and high-performance remote access.
@@ -64,7 +64,7 @@ _Orthopedic healthcare provider | Systems & Virtualization Engineering_
 - Worked with VMware consultants to validate infrastructure performance and successfully lobbied for compute and storage upgrades based on workload requirements.
 
 **Senior Engineer \|** [**ShopNBC (Evine Live)**](https://www.shophq.com/) **\| March 2012 – August 2016**
-_National televised retail network | Systems & Virtualization Engineering_
+_National televised retail network \| Systems & Virtualization Engineering_
 
 - Designed and deployed a remote data center, handling networking, compute, storage, and virtualization architecture from the ground up.
 - Key engineer for Enhanced Security Admin Environment project, implementing privileged access management and tiered AD security to pass PCI compliance audits.
