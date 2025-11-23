@@ -57,15 +57,15 @@ _National K–12 EdTech provider_ \| _Infrastructure Engineering & Operations Le
 **Senior Technology Engineer \|** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **\| August 2016 – February 2020**  
 _Orthopedic healthcare provider_ \| _Systems & Virtualization Engineering_
 
-- Led a data center migration, utilizing VMware SRM and storage replication to achieve seamless failover and disaster recovery testing.
-- Designed, implemented, and optimized a VMware Horizon VDI solution for 1,100+ users, ensuring secure and high-performance remote access.
-- Implemented a Dell-based data protection system, ensuring compliance with HIPAA security and backup regulations.
+- Led a data center migration, utilizing VMware SRM to achieve seamless failover and disaster recovery testing.
+- Designed and implemented a VMware Horizon VDI solution for 1,100+ users, ensuring secure public access.
+- Implemented a Dell-based data protection system, ensuring compliance with HIPAA security regulations.
 - Worked with VMware consultants to validate infrastructure performance and successfully lobbied for compute and storage upgrades based on workload requirements.
 
 **Senior Engineer \|** [**ShopNBC (Evine Live)**](https://www.shophq.com/) **\| March 2012 – August 2016**  
 _National televised retail network_ \| _Systems & Virtualization Engineering_
 
-- Designed and deployed a remote data center, handling networking, compute, storage, and virtualization architecture from the ground up.
+- Designed and deployed a remote data center, owning the infrastructure and architecture from the ground up.
 - Key engineer for Enhanced Security Admin Environment project, implementing privileged access management and tiered AD security to pass PCI compliance audits.
 - Managed a 200+ user VMware Horizon deployment, ensuring secure access for remote call center employees.
 
