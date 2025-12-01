@@ -38,12 +38,12 @@ _Global reinsurance provider_ \| _Global Infrastructure Engineering_
 **Infrastructure Architect \|** [**Western National**](https://wnins.com/) **\| April 2023 – November 2024**  
 _Property & casualty insurance carrier_ \| _Infrastructure & Cloud Architecture_
 
-- Designed and implemented a Hybrid Layered Architecture, modernizing cloud infrastructure and streamlining operations.
-- Led the migration to AWS EKS and Fargate, enhancing scalability, security, and disaster recovery.
-- Developed a team-driven migration strategy, aligning cloud adoption with application complexity and team readiness.
-- Led cross-functional teams focused on containerization, integration and security improvements, including SD-WAN and firewall/WAF management.
-- Drove business maturity initiatives by improving documentation standards, strengthening team performance, and defining key operational processes.
-- Architected and led the implementation of a streamlined document generation solution, reducing processing time from several hours to minutes.
+- Worked with platform and app teams on a hybrid on-prem/AWS setup, supporting migration of ~100 API and integration services.
+- Led the hands-on move of key services to AWS EKS and Fargate ensuring adherance to the companies' migration plan.
+- Defined migration rules so teams could decide whether a service should move to EKS, Fargate, or stay on-prem.
+- Acted as technical lead for containerization and integration work, coordinating SD-WAN, firewall, and WAF changes for new cloud services.
+- Helped raise the bar for solution design by standardizing diagrams, named owners (SRMs), support steps, and one-page overviews for each system.
+- Co-designed a Confluence knowledge base with clear company/department home pages and a standard document set for each system.
 
 **IT System Engineer Lead / Acting Infrastructure Manager \|** [**Infinite Campus**](https://www.infinitecampus.com/) **\| February 2020 – April 2023**  
 _National K–12 EdTech provider_ \| _Infrastructure Engineering & Operations Leadership_
