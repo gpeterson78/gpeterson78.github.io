@@ -1,8 +1,8 @@
 # gpeterson78.github.io
  
 **Address:** [www.gradyp.com](https://www.gradyp.com)    
-**Version:** 2.4  
-**Release Date:** 02-20-2025  
+**Version:** 2.5  
+**Release Date:** 12-18-2025  
 **License:** MIT  
 
 This is a work in progress and not meant for anything but Grady's personal use. But hey, if anything here is useful, feel free.
