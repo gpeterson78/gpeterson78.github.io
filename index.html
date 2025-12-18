@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="application-name" content="gradyp.com">
+    <meta name="application-version" content="2.5">
+    <meta name="build-date" content="2025-02-20">
     <title>gradyp.com</title>
     <style>
         /* General body styling */
@@ -208,6 +211,35 @@
                 tooltip.style.display = 'none';
             }
         }
+        // Per-browser "last login" (localStorage Easter egg)
+        document.addEventListener("DOMContentLoaded", () => {
+            const el = document.getElementById("last-login");
+            if (!el) return;
+
+            const STORAGE_KEY = "gradyp_last_login_iso";
+            const prev = localStorage.getItem(STORAGE_KEY);
+
+            const defaultLogin = new Date("1978-05-23T02:00:00"); // most important date in history.
+
+            const toTermDate = (d) => d.toLocaleString(undefined, {
+                weekday: "short",
+                month: "short",
+                day: "2-digit",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                year: "numeric"
+            });
+
+            if (prev) {
+                el.textContent = toTermDate(new Date(prev));
+            } else {
+                el.textContent = toTermDate(defaultLogin);
+            }
+
+            // Store "now" for next visit
+            localStorage.setItem(STORAGE_KEY, new Date().toISOString());
+        });
     </script>
 </head>
 <body>
@@ -255,7 +287,7 @@ The online home of Grady Peterson, System Engineering leader. Wrangling nerds at
             <div>======================================================</div>
         </div>
         <span class="output">For questions, comments or concerns, please contact <a href="mailto:grady@gradyp.com">grady@gradyp.com</a>.</span>
-        <pre class="prompt">Last login: Thu Feb 20 07:47:24 2025 from <span id="user-ip">[Fetching IP...]</span></pre>
+        <pre class="prompt">Last login: <span id="last-login">[Loading...]</span> from <span id="user-ip">[Fetching IP...]</span></pre> <!-- creepy :) -->
         <!-- Terminal-style content starts here -->
         <pre class="prompt">root@gradyp.com:~$ ls -lah</pre>
         <pre class="output">

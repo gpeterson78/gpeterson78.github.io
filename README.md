@@ -20,6 +20,15 @@ Current list of features:
 
 ## Release Notes
 
+- Major = site era / architectural changes
+- Minor = feature or functionality changes
+- Content updates do not bump version
+
+### Version 2.5
+
+- **Last Login functionality.** Added a little extra easter-egg creepiness.  Totally safe, but feels wrong.
+- Been a day.  Site's had a few minor updates with quotes and resume, but no new features so, figured it was about time I fix that.  I have more coming but I like how this little site of mine is shaping up.
+
 ### Version 2.4
 
 - Been a while, but on the hunt for my next opportunity so time for a little tidying up.
