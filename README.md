@@ -11,7 +11,7 @@ Explanation - This is the personal site/professional profile of Grady Peterson. 
 
 Current list of features:
 - **Quote randomizer** - Quotes can be added to quotes.json with the quote and author and it will display a different quote at random upon each page load.
-- **IP tracker** - a little "easter egg" where it displays your current IP as the last logged in IP.  I just did it because it needed something dynamic, nerdy and funny.  Fits the bill.
+- **Last Login and IP tracker** - a little "easter egg" where it displays your last login (last time accessing the site) and your current IP as the last logged in IP.  I just did it because it needed something dynamic, nerdy and funny.  Fits the bill.  Some tracking protection kills it, but it's all for fun so no big deal.
 - **Mobile support** - only because I could not get the 'logo' to stop wrapping on mobile so I substitute a smaller logo and font size for the site.
 - **Link easter eggs** - I structured this to look like an output of an "ls -lah" with the 'files' being links.  . and .. needed something meaningful; I think I nailed it.
 - **Owner and dates** - all owner and date info included on the links are meaningful.  I don't minor revision for each update, only for feature changes, but I do try to remember to increment the last login date for each update (seconds refer to version number), and the file dates on each link are meaningful as well.  File "owner" tells you where it's hosted, root in the cloud, gradyp is my homelab (lives in my basement).
