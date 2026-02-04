@@ -21,8 +21,8 @@ Infrastructure leader who modernizes hybrid environments (on-prem + AWS/Azure), 
 - **Backup & DR.** Improved recoverability by moving fragile backups to S3-based DR platforms and leading successful recovery after catastrophic failure.
 - **Remote Workforce.** Delivered secure remote access at scale via Horizon VDI (1,100+ concurrent users).
 - **Security & Compliance.** Reduced audit and operational risk through AD hardening, MFA, least privilege, and compliance delivery (PCI/HIPAA).
----
 
+---
 ## Career Experience
 
 **Senior Infrastructure Engineer \|** [**Howden RE**](https://howdenre.com) **\| April 2024 – Present**  
