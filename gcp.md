@@ -1,5 +1,5 @@
 # Grady Peterson
-**(952) 334-5523 | [grady@gradyp.com](mailto:grady@gradyp.com) | [www.gradyp.com](https://www.gradyp.com/) | Maple Grove, MN | [LinkedIn](https://www.linkedin.com/in/gradypeterson/)**
+**(952) 334-5523 \| [grady@gradyp.com](mailto:grady@gradyp.com) \| [www.gradyp.com](https://www.gradyp.com/) \| Maple Grove, MN \| [LinkedIn](https://www.linkedin.com/in/gradypeterson/)**
 
 ## Infrastructure Engineering Leader
 _Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization_
@@ -25,9 +25,9 @@ Infrastructure leader with 20+ years of experience operating at the architecture
 
 ## Career Experience
 
-**Senior Infrastructure Engineer |** [**Howden RE**](https://howdenre.com) **| April 2025 – Present**  
-_Global reinsurance provider_ | _Global Infrastructure Engineering_  
-**Scope:** ~300 VMs (US acquired entity) | Azure (US) | 30,000+ user global org spanning US, UK, Singapore, Australia, Bahamas
+**Senior Infrastructure Engineer \|** [**Howden RE**](https://howdenre.com) **\| April 2025 – Present**  
+_Global reinsurance provider_ \| _Global Infrastructure Engineering_  
+**Scope:** ~300 VMs (US acquired entity) \| Azure (US) \| 30,000+ user global org spanning US, UK, Singapore, Australia, Bahamas
 
 - Leading US infrastructure stabilization and modernization following Howden Group acquisition of TigerRisk, owning technical execution across a legacy environment while aligning to global standards and preparing for full domain and platform consolidation.
 - Planning and will execute migration of ~300 large-scale VMs across Minneapolis and Nashville datacenters to new 12-node Nutanix HCI clusters per site, integrated with Howden's global Azure-connected network spanning 30,000+ users across London, Singapore, Australia, and the Bahamas.
@@ -40,9 +40,9 @@ _Global reinsurance provider_ | _Global Infrastructure Engineering_
 
 ---
 
-**Infrastructure Architect |** [**Western National**](https://wnins.com/) **| April 2023 – November 2024**  
-_Property & casualty insurance carrier_ | _Infrastructure & Cloud Architecture_  
-**Scope:** Architecture and direction across hybrid VMware/Nutanix on-prem and AWS (EKS/Fargate) | ~100 services in migration | SD-WAN/WAF
+**Infrastructure Architect \|** [**Western National**](https://wnins.com/) **\| April 2023 – November 2024**  
+_Property & casualty insurance carrier_ \| _Infrastructure & Cloud Architecture_  
+**Scope:** Architecture and direction across hybrid VMware/Nutanix on-prem and AWS (EKS/Fargate) \| ~100 services in migration \| SD-WAN/WAF
 
 - Embedded with Enterprise Architecture team to provide infrastructure perspective on a major cloud replatforming initiative, from Docker Swarm on-prem to serverless Kubernetes on AWS EKS/Fargate.
 - Advocated for a staged migration approach over a single cutover strategy, citing replatforming complexity and application rebuild requirements; diagnosed and supported repeated migration attempts when initial approach stalled.
@@ -52,8 +52,8 @@ _Property & casualty insurance carrier_ | _Infrastructure & Cloud Architecture_
 
 ---
 
-**IT System Engineer Lead / Acting Infrastructure Manager |** [**Infinite Campus**](https://www.infinitecampus.com/) **| February 2020 – April 2023**  
-_National K–12 EdTech provider_ | _Infrastructure Engineering & Operations Leadership_ **Scope:** 4 datacenters (2 corporate, 2 colocated at Switch Las Vegas & Reno) | ~4,000 VMs | active/active
+**IT System Engineer Lead / Acting Infrastructure Manager \|** [**Infinite Campus**](https://www.infinitecampus.com/) **\| February 2020 – April 2023**  
+_National K–12 EdTech provider_ \| _Infrastructure Engineering & Operations Leadership_ **Scope:** 4 datacenters (2 corporate, 2 colocated at Switch Las Vegas & Reno) \| ~4,000 VMs \| active/active
 
 - Identified and drove a multi-year platform modernization strategy, replacing aging Cisco UCS/NetApp infrastructure across four datacenters with Nutanix HCI, deliberately sequencing the transition to eliminate lifecycle risk, reduce operational complexity, and preserve VMware exit optionality ahead of the Broadcom acquisition.
 - Engineered stakeholder and vendor alignment prior to formal proposal, securing Nutanix pricing below anticipated refresh cost by strategically staging a proof-of-concept deployment that created competitive motivation without telegraphing intent.
@@ -65,9 +65,9 @@ _National K–12 EdTech provider_ | _Infrastructure Engineering & Operations Lea
 
 ---
 
-**Senior Technology Engineer |** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **| August 2016 – February 2020**  
-_Orthopedic healthcare provider_ | _Systems & Virtualization Engineering_  
-**Scope:** 2 datacenters (corporate office + Eden Prairie colo) | 1,100+ concurrent VDI users | HIPAA environment
+**Senior Technology Engineer \|** [**Twin Cities Orthopedics (Revo Health)**](https://revohealth.com/) **\| August 2016 – February 2020**  
+_Orthopedic healthcare provider_ \| _Systems & Virtualization Engineering_  
+**Scope:** 2 datacenters (corporate office + Eden Prairie colo) \| 1,100+ concurrent VDI users \| HIPAA environment
 
 - Identified a critical security vulnerability on day one, VNC exposed to the public internet with a four-digit numeric password, granting potential admin access to the entire network including patient data, clinical imaging, and corporate systems. Remediated immediately and reported to leadership before any exposure occurred.
 - Proposed and delivered infrastructure modernization from aging Cisco/NetApp to Dell VXRail HCI, reducing platform complexity and cost while improving performance, the infrastructure remained in production operation years after deployment.
@@ -78,9 +78,9 @@ _Orthopedic healthcare provider_ | _Systems & Virtualization Engineering_
 
 ---
 
-**Senior Engineer |** [**ShopNBC (Evine Live)**](https://www.shophq.com/) **| March 2012 – August 2016**  
-_National televised retail network_ | _Systems & Virtualization Engineering_  
-**Scope:** 3 datacenters (corporate HQ + 2 distribution center DCs) | multiple VMware clusters (internal services + VDI) | PCI environment
+**Senior Engineer \|** [**ShopNBC (Evine Live)**](https://www.shophq.com/) **\| March 2012 – August 2016**  
+_National televised retail network_ \| _Systems & Virtualization Engineering_  
+**Scope:** 3 datacenters (corporate HQ + 2 distribution center DCs) \| multiple VMware clusters (internal services + VDI) \| PCI environment
 
 - Designed and built greenfield datacenter infrastructure for a 260,000+ sq ft distribution center expansion, including full physical layout, power distribution via Eaton UPS, cooling load calculations, generator transfer runtime planning, and Cisco blade/Nutanix SAN deployment, coordinating directly with facility builders through multiple layout revisions.
 - Executed a complete replacement of aging 4Gb Brocade fibre channel infrastructure across ~20 racks, migrating to 16Gb Cisco Nexus with fully structured cabling, eliminating chronic storage timeouts and retries, reducing rack temperatures, and removing literal bags of tangled legacy cable, all with zero downtime via careful multipath cutover sequencing.
