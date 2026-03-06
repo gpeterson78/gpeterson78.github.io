@@ -53,7 +53,8 @@ _Property & casualty insurance carrier_ \| _Infrastructure & Cloud Architecture_
 ---
 
 **IT System Engineer Lead / Acting Infrastructure Manager \|** [**Infinite Campus**](https://www.infinitecampus.com/) **\| February 2020 – April 2023**  
-_National K–12 EdTech provider_ \| _Infrastructure Engineering & Operations Leadership_ **Scope:** 4 datacenters (2 corporate, 2 colocated at Switch Las Vegas & Reno) \| ~4,000 VMs \| active/active
+_National K–12 EdTech provider_ \| _Infrastructure Engineering & Operations Leadership_ 
+**Scope:** 4 datacenters (2 corporate, 2 colocated at Switch Las Vegas & Reno) \| ~4,000 VMs \| active/active
 
 - Identified and drove a multi-year platform modernization strategy, replacing aging Cisco UCS/NetApp infrastructure across four datacenters with Nutanix HCI, deliberately sequencing the transition to eliminate lifecycle risk, reduce operational complexity, and preserve VMware exit optionality ahead of the Broadcom acquisition.
 - Engineered stakeholder and vendor alignment prior to formal proposal, securing Nutanix pricing below anticipated refresh cost by strategically staging a proof-of-concept deployment that created competitive motivation without telegraphing intent.
