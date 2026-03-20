@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="application-name" content="gradyp.com">
     <meta name="application-version" content="2.5">
     <meta name="build-date" content="2025-02-20">
@@ -318,7 +319,9 @@ drwxr-xr-x 1 gradyp gradyp 7.9K Dec 21  2024 <a href="https://codeberg.org/grady
     <!-- Video Modal -->
     <div id="video-modal" class="video-modal">
         <div class="video-container">
-            <iframe id="video-frame" src="https://www.youtube.com/embed/tFkg8LSMegw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="video-frame" src=""
+            referrerpolicy="strict-origin-when-cross-origin"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <span class="close-btn" onclick="closeModal()">X</span>
     </div>
