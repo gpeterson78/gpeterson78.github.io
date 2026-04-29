@@ -1,5 +1,5 @@
 # Grady Peterson
-**[grady@gradyp.com](mailto:grady@gradyp.com) \| [www.gradyp.com](https://www.gradyp.com/) \| Maple Grove, MN \| [LinkedIn](https://www.linkedin.com/in/gradypeterson/)**
+**[grady@gradyp.com](mailto:grady@gradyp.com) \| [www.gradyp.com](https://www.gradyp.com/) \| [LinkedIn](https://www.linkedin.com/in/gradypeterson/)**
 
 ## Infrastructure Engineering Leader
 _Enterprise Architecture | Digital Transformations | Cloud Strategy | Process Optimization_
