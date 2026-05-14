@@ -119,6 +119,27 @@ A small set of lightweight Python integration services has different requirement
 
 ---
 
+### AD-7 — Design Guardrails, Not Gates; Use Forcing Functions
+
+**Statement:** Systems and processes should be designed so that the correct behavior is the path of least resistance — guardrails that enable safe movement, not gates that stop it.
+
+**Rationale:** Rules that require manual enforcement are fragile. They depend on someone watching, someone remembering, someone caring enough to push back. Guardrails built into the design itself don't require enforcement — they make the right path easier than the wrong one. A forcing function is any mechanism where the design of a system or process naturally produces the desired behavior: a pipeline that won't promote without a passing test, a checklist that makes a repetitive task faster than doing it from memory, a network segment that makes lateral movement structurally impossible rather than just prohibited.
+
+This is not rigidity. A guardrail lets you move freely within a defined space — it only acts at the boundary. The goal is to define the space generously enough that people can do what they need to do, and to make the boundary self-enforcing rather than dependent on vigilance.
+
+The practical corollary: a process that is easier to follow than to skip will be followed. A process that requires extra effort gets bypassed under pressure. Design for the path of least resistance, and put the guardrails where they matter.
+
+**Implications:**
+- Process documentation is a forcing function when it makes a task faster, more reproducible, and less error-prone than doing it from memory. Write processes that people *want* to use.
+- Automation is the natural endpoint of a well-documented process. Capture the process first — in a checklist, a runbook, a template — then automate from that foundation. The documentation becomes the blueprint.
+- Security controls should be structural where possible: network segmentation that prevents access is more reliable than policy that prohibits it.
+- The correct level of process overhead scales with the risk of the task. High-stakes, infrequently performed tasks warrant detailed checklists. Routine, well-understood tasks need lighter guidance.
+- When a process is being bypassed, the correct response is to understand why — the process may be poorly designed, not the people ignoring it.
+
+*Demonstrated in practice: A certificate renewal process documented as a step-by-step checklist reproduces correctly every time, requires no mental overhead to execute, and serves as the ready-made blueprint when automation becomes viable. The checklist is not extra work — it is what makes the work simple.*
+
+---
+
 ## Risk & Security
 
 ---
